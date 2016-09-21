@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="author" content="Ioannis Arapakis">
+	
+		<title>Ioannis Arapakis</title>
+
+		<!-- Bootstrap -->
+		<link href="../css/bootstrap_.css" rel="stylesheet">
+		<link href="../themes/twitter/bootstrap.min.css" rel="stylesheet">
+		<link href="../themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="/">Ioannis Arapakis</a>
+					<ul class="nav">
+						<li><a href="../research.html">Research</a></li>
+						<li><a href="../publications.html">Publications</a></li>
+						<li><a href="../teaching.html">Teaching</a></li>
+						<li><a href="../spectre.html">The SPECTRE Project</a></li>
+						<li><a href="../contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="content">
+				<!-- <div class="page-header"> -->
+				<div class="page-header" style="margin-top: 10px;">
+					<h2>Ad retrieval</h2>
+				</div>
+				<div class="row">
+					<div class="span12">
+						
+						<div class="row">
+							<div class="span8">
+								<h3>The Role of Relevance in Sponsored Search</h3>
+								<p>
+									<span class="glyphicon glyphicon-user">&nbsp;</span>L. Aiello, <b>I. Arapakis</b>, R. Baeza-Yates, X. Bai, N. Barbieri, A. Mantrach, and F. Silvestri
+								</p>
+								<p>
+									<b><em>Abstract - </em></b>
+									Sponsored search aims at retrieving the advertisements that in the one hand meet users’ intent reflected in their search queries, and in the other hand attract user clicks to generate revenue. Advertisements are typically ranked based on their expected revenue that is computed as the product between their predicted probability of being clicked (i.e., namely clickability) and their advertiser provided bid. The relevance of an advertisement to a user query is implicitly captured by the predicted clickability of the advertisement, assuming that relevant advertisements are more likely to attract user clicks. However, this approach easily biases the ranking toward advertisements having rich click history. This may incorrectly lead to showing irrelevant advertisements whose clickability is not accurately predicted due to lack of click history. Another side e↵ect consists of never giving a chance to new advertisements that may be highly relevant to be printed due to their lack of click history.
+									<br />
+									To address this problem, we explicitly measure the relevance between an advertisement and a query without relying on the advertisement’s click history, and present different ways of leveraging this relevance to improve user search experience without reducing search engine revenue. Specifically, we propose a machine learning approach that solely relies on text-based features to measure the relevance between an advertisement and a query. We discuss how the introduced relevance can be used in four important use cases: pre-filtering of irrelevant advertisements, recovering advertisements with little history, improving clickability prediction, and re-ranking of the advertisements on the final search result page. O✏ine experiments using large-scale query logs and online A/B tests demonstrate the superiority of the proposed click-oblivious relevance model and the important roles that relevance plays in sponsored search.
+								</p>
+								<p>
+									<!-- <span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://"></a><br /> -->
+									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM16.pdf" target="_blank">PDF</a>
+									<br />
+									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Relevance Model; relevance in sponsored Search
+								</p>
+								<!-- <div class="well">
+									xxx
+								</div> -->
+							</div>
+							<div class="span4">
+								<!-- <h3>Supplementary Material</h3> -->
+								<a href="../images/fig8.png" class="thumbnail"><img src="../images/fig8.png" width="300" /></a>
+								<em>Performance of relevance model.</em>
+								<br />
+								<br />
+								<a href="../images/fig7.png" class="thumbnail"><img src="../images/fig7.png" width="300" /></a>
+								<em>NDCG distribution.</em>
+								<!-- <img src="images/G_miguel_fig2_long.png" width="260" /> -->
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+				</p>
+			</footer>
+		</div> <!-- /container -->
+	</body>
+</html>

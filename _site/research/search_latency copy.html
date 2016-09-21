@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="author" content="Ioannis Arapakis">
+	
+		<title>Ioannis Arapakis</title>
+
+		<!-- Bootstrap -->
+		<link href="../css/bootstrap_.css" rel="stylesheet">
+		<link href="../themes/twitter/bootstrap.min.css" rel="stylesheet">
+		<link href="../themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="/">Ioannis Arapakis</a>
+					<ul class="nav">
+						<li><a href="../research.html">Research</a></li>
+						<li><a href="../publications.html">Publications</a></li>
+						<li><a href="../teaching.html">Teaching</a></li>
+						<li><a href="../spectre.html">The SPECTRE Project</a></li>
+						<li><a href="../contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="content">
+				<!-- <div class="page-header"> -->
+				<div class="page-header" style="margin-top: 10px;">
+					<h2>Impact of search latency on user engagement in web search</h2>
+				</div>
+				<div class="row">
+					<div class="span12">
+						
+						<div class="row">
+							<div class="span8">
+								<h3>Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</h3>
+								<p>
+									<span class="glyphicon glyphicon-user">&nbsp;</span>M. Barreda-&Agrave;ngeles, <b>I. Arapakis</b>, X. Bai, B. Barla Cambazoglu, and A. Pereda-Ba&ntilde;os
+								</p>
+								<p>
+									<b><em>Abstract - </em></b>
+									Understanding the impact of a search system’s response latency on its users’ searching behaviour has been recently an active research topic in the information retrieval and human-computer interaction areas. Along the same line, this paper focuses on the user impact of search latency and makes the following two contributions. First, through a controlled experiment, we reveal the physiological effects of response latency on users and show that these effects are present even at small increases in response latency. We compare these effects with the information gathered from self-reports and show that they capture the nuanced attentional and emotional reactions to latency much better. Second, we carry out a large-scale analysis using a web search query log obtained from Yahoo to understand the change in the way users engage with a web search engine under varying levels of increasing response latency. In particular, we analyse the change in the click behaviour of users when they are subject to increasing response latency and reveal significant behavioural differences.
+								</p>
+								<p>
+									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2766462.2767719">10.1145/2766462.2767719</a><br />
+									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR15.pdf" target="_blank">PDF</a><br />
+									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search engine; response latency; user study; physiological signals; user behaviour; query log analysis; click behaviour
+								</p>
+								<div class="well">
+									Miguel Barreda-&Agrave;ngeles, Ioannis Arapakis, Xiao Bai, B. Barla Cambazoglu, and Alexandre Pereda-Ba&ntilde;os. 2015. <b>Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</b>. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '15). ACM, New York, NY, USA, 203-212.
+								</div>
+							</div>
+							<div class="span4">
+								<h3>Supplementary Material</h3>
+								<a href="../images/fig2.png" class="thumbnail"><img src="../images/fig2.png" width="300" /></a>
+								<em>Graphical representation of the values of the fixed coefficients for the EDA model.</em>
+								<br />
+								<br />
+								<a href="../images/fig3.png" class="thumbnail"><img src="../images/fig3.png" width="300" /></a>
+								<em>Fast or slow query response preference according to the click presence metric.</em>
+								<!-- <img src="images/G_miguel_fig2_long.png" width="260" /> -->
+							</div>
+						</div>
+
+						<hr />
+
+						<div class="row">
+							<div class="span8">
+								<h3>Impact of Response Latency on User Behavior in Web Search</h3>
+								<p>
+									<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, X. Bai, and B. Barla Cambazoglu
+								</p>
+								<p>
+									<b><em>Abstract - </em></b>
+									Traditionally, the efficiency and effectiveness of search systems have both been of great interest to the information retrieval community. However, an in-depth analysis on the interplay between the response latency of web search systems and users’ search experience has been missing so far. In order to fill this gap, we conduct two separate studies aiming to reveal how response latency affects the user behavior in web search. First, we conduct a controlled user study trying to understand how users perceive the response latency of a search system and how sensitive they are to increasing delays in response. This study reveals that, when artificial delays are introduced into the response, the users of a fast search system are more likely to notice these delays than the users of a slow search system. The introduced delays become noticeable by the users once they exceed a certain threshold value. Second, we perform an analysis using a large-scale query log obtained from Yahoo web search to observe the potential impact of increasing response latency on the click behavior of users. This analysis demonstrates that latency has an impact on the click behavior of users to some extent. In particular, given two content-wise identical search result pages, we show that the users are more likely to perform clicks on the result page that is served with lower latency.
+								</p>
+								<p>
+									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2600428.2609627">10.1145/2600428.2609627</a><br />
+									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR14.pdf" target="_blank">PDF</a><br />
+									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search engine; response latency; user behavior
+								</p>
+								<div class="well">
+									Ioannis Arapakis, Xiao Bai, and B. Barla Cambazoglu. 2014. <b>Impact of response latency on user behavior in web search</b>. In Proceedings of the 37th international ACM SIGIR conference on Research &amp; development in information retrieval (SIGIR '14). ACM, New York, NY, USA, 103-112.
+								</div>
+							</div>
+							<div class="span4">
+								<!-- <h3>Supplementary Material</h3> -->
+								<a href="../images/fig4.png" class="thumbnail"><img src="../images/fig4.png" width="300" /></a>
+								<em>Latency components in web search.</em>
+								<br />
+								<br />
+								<a href="../images/fig5.png" class="thumbnail"><img src="../images/fig5.png" width="300" /></a>
+								<em>Dissection of latency.</em>
+								<br />
+								<br />
+								<a href="../images/fig6.png" class="thumbnail"><img src="../images/fig6.png" width="300" /></a>
+								<em>The likelihood of participants to feel increasing values of added latency.</em>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+				</p>
+			</footer>
+		</div> <!-- /container -->
+	</body>
+</html>
