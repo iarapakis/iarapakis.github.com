@@ -1364,7 +1364,7 @@ img {
 .affix {
   position: fixed;
 }
-@viewport {
+@-viewport {
   width: device-width;
 }
 .visible-xs,
