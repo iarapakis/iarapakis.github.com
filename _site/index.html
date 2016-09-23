@@ -5,83 +5,100 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
 		<meta name="author" content="Ioannis Arapakis">
-	
+		<link rel="icon" href="../../favicon.ico">
+
 		<title>Ioannis Arapakis</title>
 
-		<!-- Bootstrap -->
-		<link href="/themes/twitter/bootstrap.min.css" rel="stylesheet">
-		<link href="/themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<body style="background-color: #f5f5f5;">
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-	
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="/">Ioannis Arapakis</a>
-					<ul class="nav">
+		<script src="/js/bootstrap.min.js"></script>
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" style="color: white; font-size: 18px; font-weight: normal;">Ioannis Arapakis</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" style="padding-top: 2px;">
+					<ul class="nav navbar-nav">
 						<li><a href="/research.html">Research</a></li>
 						<li><a href="/publications.html">Publications</a></li>
 						<li><a href="/teaching.html">Teaching</a></li>
 						<li><a href="/spectre.html">The SPECTRE Project</a></li>                      
 						<li><a href="/contact.html">Contact</a></li>
 					</ul>
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-		</div>
+		</nav>
 
-		<div class="container">
+		<div class="container theme-showcase" role="main">
 			<div class="content">
-				<!-- <div class="page-header"> -->
-				<div class="page-header" style="margin-top: 10px;">
-					<h2>Biography</h2>
-				</div>
 				<div class="row">
-					<div class="span12">
-						<p>
-							<!-- <img src="images/ioannis-3.png" class="img-polaroid span2 pull-right" /> -->
-							<img src="images/ioannis-3.png" class="img-polaroid pull-right" width="200" />
-						</p>
-						<p>
-							Hi, I’m Ioannis Arapakis, currently a Sr Data Scientist at <a href="http://eurecat.org/en/" target="_blank">Eurecat</a>.
-						</p>
+					<div class="col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
+								<h3><b>Biography</b></h3>
+							</div>
+							<div class="panel-body">
+								<p>
+									<img src="images/ioannis-3.png" class="img-thumbnail pull-right" width="200" />
+								</p>
+								<p>
+									Hi, I’m Ioannis Arapakis, currently a Sr Data Scientist at <a href="http://eurecat.org/en/" target="_blank">Eurecat</a>.
+								</p>
 
-						<p>
-							I hold a Ph.D. in Information Retrieval from the <a href="http://www.gla.ac.uk/schools/computing/" target="_blank">School of Computing Science</a> of the <a href="http://www.gla.ac.uk/" target="_blank">University of Glasgow</a>. My thesis addresses the offline and online modeling of user behaviour in the context of web search, and was supervised by <a href="http://www.dcs.gla.ac.uk/~jj/" target="_blank">Prof. Joemon M. Jose</a>, <a href="http://www.dcs.gla.ac.uk/~pdg/" target="_blank">Dr. Phil Gray</a>, and <a href="http://www.dcs.gla.ac.uk/~keith/" target="_blank">Prof. C. J. Keith van Rijsbergen</a>. I have also a M.Sc. degree in Information Technology (with specialisation in Interactive Systems Engineering) from the <a href="https://www.kth.se/en" target="_blank">Royal Institute of Technology</a>, under the supervision of <a href="https://people.dsv.su.se/~tessy/" target="_blank">Asst. Prof. Teresa Cerratto Pargman</a>.
-						</p>
-						<p>
-							During the last four years I have worked as a research scientist at <a href="https://research.yahoo.com/" target="_blank">Yahoo Labs</a>, where I conducted research in the areas of Data Mining, IR, and HCI. Over this period, I was an active member of the (1) User Engagement, (2) Web Retrieval and (3) Ad Processing and Retrieval groups, lead several internal projects (see Section “Research”), and addressed research problems related to pattern recognition, predictive modeling, multimedia mining and search, social media analysis, and machine learning (see Section “Publications”). 
-						</p>
-						<p>
-							My diverse set of theoretical knowledge, technical skills, and industrial expertise, allows me to analyse, understand and model rich data repositories, and contribute to scientific innovation both in industry and society. My insatiable curiosity constantly reveals me to new and exciting knowledge domains and research problems, which I am always willing to explore.
-						</p>
-						<p>
-							Central to my research is the investigation of innovative behaviour interpretation algorithms and methods that can account for the contextual, personal and historical information of user activity, while drawing knowledge from data mining, machine learning and neuroscience. I am also interested in methods for leveraging knowledge inferred from biowearables and laboratory tests with the help of online behaviour metrics acquired through automatic, low-cost, and scalable techniques. My research interests include:
-							<ul>
-								<li>
-									<b>Data Mining:</b> pattern recognition, predictive modelling, statistical inference, time series analysis, deep neural networks
-								</li>
-								<li>
-									<b>Information Retrieval:</b> multimedia search, personalised search systems, recommender systems, ad retrieval, user modelling, evaluation and applications
-								</li>
-								<li>
-									<b>Human-Computer Interaction:</b> experimental methods, user engagement, neuro-physiological signal processing, sentiment analysis
-								</li>
-							</ul>
-						</p>
+								<p>
+									I hold a Ph.D. in Information Retrieval from the <a href="http://www.gla.ac.uk/schools/computing/" target="_blank">School of Computing Science</a> of the <a href="http://www.gla.ac.uk/" target="_blank">University of Glasgow</a>. My thesis addresses the offline and online modeling of user behaviour in the context of web search, and was supervised by <a href="http://www.dcs.gla.ac.uk/~jj/" target="_blank">Prof. Joemon M. Jose</a>, <a href="http://www.dcs.gla.ac.uk/~pdg/" target="_blank">Dr. Phil Gray</a>, and <a href="http://www.dcs.gla.ac.uk/~keith/" target="_blank">Prof. C. J. Keith van Rijsbergen</a>. I have also a M.Sc. degree in Information Technology (with specialisation in Interactive Systems Engineering) from the <a href="https://www.kth.se/en" target="_blank">Royal Institute of Technology</a>, under the supervision of <a href="https://people.dsv.su.se/~tessy/" target="_blank">Asst. Prof. Teresa Cerratto Pargman</a>.
+								</p>
+								<p>
+									During the last four years I have worked as a research scientist at <a href="https://research.yahoo.com/" target="_blank">Yahoo Labs</a>, where I conducted research in the areas of Data Mining, IR, and HCI. Over this period, I was an active member of the (1) User Engagement, (2) Web Retrieval and (3) Ad Processing and Retrieval groups, lead several internal projects (see Section “Research”), and addressed research problems related to pattern recognition, predictive modeling, multimedia mining and search, social media analysis, and machine learning (see Section “Publications”). 
+								</p>
+								<p>
+									My diverse set of theoretical knowledge, technical skills, and industrial expertise, allows me to analyse, understand and model rich data repositories, and contribute to scientific innovation both in industry and society. My insatiable curiosity constantly reveals me to new and exciting knowledge domains and research problems, which I am always willing to explore.
+								</p>
+								<p>
+									Central to my research is the investigation of innovative behaviour interpretation algorithms and methods that can account for the contextual, personal and historical information of user activity, while drawing knowledge from data mining, machine learning and neuroscience. I am also interested in methods for leveraging knowledge inferred from biowearables and laboratory tests with the help of online behaviour metrics acquired through automatic, low-cost, and scalable techniques. My research interests include:
+									<ul>
+										<li>
+											<b>Data Mining:</b> pattern recognition, predictive modelling, statistical inference, time series analysis, deep neural networks
+										</li>
+										<li>
+											<b>Information Retrieval:</b> multimedia search, personalised search systems, recommender systems, ad retrieval, user modelling, evaluation and applications
+										</li>
+										<li>
+											<b>Human-Computer Interaction:</b> experimental methods, user engagement, neuro-physiological signal processing, sentiment analysis
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
 					</div>
+				</div> <!-- /row -->
+				<div class="row" style="text-align: center;">
+					<footer>
+						<p>
+							&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+						</p>
+					</footer>
 				</div>
-			</div>
-
-			<footer>
-				<p>
-					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				</p>
-			</footer>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
-  </body>
+
+	</body>
 </html>
