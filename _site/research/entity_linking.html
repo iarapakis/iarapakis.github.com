@@ -5,107 +5,123 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
 		<meta name="author" content="Ioannis Arapakis">
-	
+		<link rel="icon" href="../../favicon.ico">
+
 		<title>Ioannis Arapakis</title>
 
-		<!-- Bootstrap -->
-		<link href="../css/bootstrap_.css" rel="stylesheet">
-		<link href="../themes/twitter/bootstrap.min.css" rel="stylesheet">
-		<link href="../themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<body style="background-color: #f5f5f5;">
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-	
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="/">Ioannis Arapakis</a>
-					<ul class="nav">
-						<li><a href="../research.html">Research</a></li>
-						<li><a href="../publications.html">Publications</a></li>
-						<li><a href="../teaching.html">Teaching</a></li>
-						<li><a href="../spectre.html">The SPECTRE Project</a></li>
-						<li><a href="../contact.html">Contact</a></li>
+		<script src="/js/bootstrap.min.js"></script>
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/index.html" style="color: white; font-size: 18px; font-weight: normal;">Ioannis Arapakis</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" style="padding-top: 2px;">
+					<ul class="nav navbar-nav">
+						<li><a href="/research.html">Research</a></li>
+						<li><a href="/publications.html">Publications</a></li>
+						<li><a href="/teaching.html">Teaching</a></li>
+						<li><a href="/spectre.html" style="color: red;">The SPECTRE Project</a></li>                      
+						<li><a href="/contact.html">Contact</a></li>
 					</ul>
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-		</div>
+		</nav>
 
-		<div class="container">
+		<div class="container theme-showcase" role="main">
 			<div class="content">
-				<!-- <div class="page-header"> -->
-				<div class="page-header" style="margin-top: 10px;">
-					<h2>Linking entities to past articles</h2>
-				</div>
 				<div class="row">
-					<div class="span12">
-						
-						<div class="row">
-							<div class="span8">
-								<h3>Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, H. Ceylan, and P. Donmez
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									News portals are a popular destination for web users. News providers are therefore interested in attaining higher visitor rates and promoting greater engagement with their content. One aspect of engagement deals with keeping users on site longer by allowing them to have enhanced click-through experiences. News portals have invested in ways to embed links within news stories but so far these links have been curated by news editors. Given the manual effort involved, the use of such links is limited to a small scale. In this article, we evaluate a system-based approach that detects newsworthy events in a news article and locates other articles related to these events. Our system does not rely on resources like Wikipedia to identify events, and it was designed to be domain independent. A rigorous evaluation, using Amazon’s Mechanical Turk, was performed to assess the system-embedded links against the manually-curated ones. Our findings reveal that our system’s performance is comparable with that of professional editors, and that users find the automatically generated highlights interesting and the associated articles worthy of reading. Our evaluation also provides quantitative and qualitative insights into the curation of links, from the perspective of users and professional editors.
-								</p>
-								<p>
-									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1002/asi.22959" target="_blank">10.1002/asi.22959</a>
-									<br />
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST13.pdf" target="_blank">PDF</a>
-									<br />
-									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>User studies, text mining, qualitative research
-								</p>
-								<div class="well">
-									Arapakis, I., Lalmas, M., Ceylan, H. and Donmez, P. (2014), <b>Automatically embedding newsworthy links to articles: From implementation to evaluation</b>. J Assn Inf Sci Tec, 65: 129–145.
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
+								<h3><b>Linking entities to past articles</b></h3>
+							</div>
+							<div class="panel-body">
+								
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, H. Ceylan, and P. Donmez
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											News portals are a popular destination for web users. News providers are therefore interested in attaining higher visitor rates and promoting greater engagement with their content. One aspect of engagement deals with keeping users on site longer by allowing them to have enhanced click-through experiences. News portals have invested in ways to embed links within news stories but so far these links have been curated by news editors. Given the manual effort involved, the use of such links is limited to a small scale. In this article, we evaluate a system-based approach that detects newsworthy events in a news article and locates other articles related to these events. Our system does not rely on resources like Wikipedia to identify events, and it was designed to be domain independent. A rigorous evaluation, using Amazon’s Mechanical Turk, was performed to assess the system-embedded links against the manually-curated ones. Our findings reveal that our system’s performance is comparable with that of professional editors, and that users find the automatically generated highlights interesting and the associated articles worthy of reading. Our evaluation also provides quantitative and qualitative insights into the curation of links, from the perspective of users and professional editors.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1002/asi.22959" target="_blank">10.1002/asi.22959</a>
+											<br />
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST13.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>User studies, text mining, qualitative research
+										</p>
+										<div class="well">
+											Arapakis, I., Lalmas, M., Ceylan, H. and Donmez, P. (2014), <b>Automatically embedding newsworthy links to articles: From implementation to evaluation</b>. J Assn Inf Sci Tec, 65: 129–145.
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- <h4>Supplementary Material</h4> -->
+										<a href="../images/fig13.jpg" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig13.jpg" width="300" /></a>
+										<em>Example of news article with an automatically augmented link to a related article.</em>
+									</div>
+								</div>
+
+								<hr />
+
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>Automatically Embedding Newsworthy Links to Articles</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span>H. Ceylan, <b>I. Arapakis</b>, P. Donmez, M. Lalmas
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											It is of great interest to news providers such as Yahoo! News to attain higher visitor rates by promoting greater engage- ment with their content. One aspect of engagement deals with keeping users on the site longer by allowing them to navigate through content with enhanced, click-through experiences. News portals have invested in ways to provide embedded links within news stories. So far these links have been manually curated by professional editors, and due to the manual effort involved, the use of such links has been limited. In this paper we propose an automated approach to detecting and linking newsworthy events to associated articles. Our analysis, conducted on Amazon’s Mechanical Turk, reveals that our system’s performance is comparable to that of professional editors, and that users find the automatically generated highlights interesting and the associated articles worthy of reading.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2396761.2398461" target="_blank">10.1145/2396761.2398461</a>
+											<br />
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM12-short.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Newsworthiness; automatic linking; engagement strategy
+										</p>
+										<div class="well">
+											Hakan Ceylan, Ioannis Arapakis, Pinar Donmez, and Mounia Lalmas. 2012. <b>Automatically embedding newsworthy links to articles</b>. In Proceedings of the 21st ACM international conference on Information and knowledge management (CIKM '12). ACM, New York, NY, USA, 1502-1506.
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="span4">
-								<h3>Supplementary Material</h3>
-								<a href="../images/fig13.jpg" class="thumbnail"><img src="../images/fig13.jpg" width="300" /></a>
-								<em>Example of news article with an automatically augmented link to a related article.</em>
-							</div>
 						</div>
-
-						<hr />
-
-						<div class="row">
-							<div class="span8">
-								<h3>Automatically Embedding Newsworthy Links to Articles</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span>H. Ceylan, <b>I. Arapakis</b>, P. Donmez, M. Lalmas
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									It is of great interest to news providers such as Yahoo! News to attain higher visitor rates by promoting greater engage- ment with their content. One aspect of engagement deals with keeping users on the site longer by allowing them to navigate through content with enhanced, click-through experiences. News portals have invested in ways to provide embedded links within news stories. So far these links have been manually curated by professional editors, and due to the manual effort involved, the use of such links has been limited. In this paper we propose an automated approach to detecting and linking newsworthy events to associated articles. Our analysis, conducted on Amazon’s Mechanical Turk, reveals that our system’s performance is comparable to that of professional editors, and that users find the automatically generated highlights interesting and the associated articles worthy of reading.
-								</p>
-								<p>
-									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2396761.2398461" target="_blank">10.1145/2396761.2398461</a>
-									<br />
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM12-short.pdf" target="_blank">PDF</a>
-									<br />
-									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Newsworthiness; automatic linking; engagement strategy
-								</p>
-								<div class="well">
-									Hakan Ceylan, Ioannis Arapakis, Pinar Donmez, and Mounia Lalmas. 2012. <b>Automatically embedding newsworthy links to articles</b>. In Proceedings of the 21st ACM international conference on Information and knowledge management (CIKM '12). ACM, New York, NY, USA, 1502-1506.
-								</div>
-							</div>
-						</div>
-
 					</div>
+				</div> <!-- /row -->
+				<div class="row" style="text-align: center;">
+					<footer>
+						<p>
+							&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+						</p>
+					</footer>
 				</div>
-			</div>
-
-			<footer>
-				<p>
-					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				</p>
-			</footer>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
+
 	</body>
 </html>

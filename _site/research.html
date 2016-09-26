@@ -5,104 +5,112 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
 		<meta name="author" content="Ioannis Arapakis">
-	
+		<link rel="icon" href="../../favicon.ico">
+
 		<title>Ioannis Arapakis</title>
 
-		<!-- Bootstrap -->
-		<link href="/themes/twitter/bootstrap.min.css" rel="stylesheet">
-		<link href="/themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<body style="background-color: #f5f5f5;">
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-	
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="/">Ioannis Arapakis</a>
-					<ul class="nav">
+		<script src="/js/bootstrap.min.js"></script>
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/index.html" style="color: white; font-size: 18px; font-weight: normal;">Ioannis Arapakis</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" style="padding-top: 2px;">
+					<ul class="nav navbar-nav">
 						<li><a href="/research.html">Research</a></li>
 						<li><a href="/publications.html">Publications</a></li>
 						<li><a href="/teaching.html">Teaching</a></li>
-						<li><a href="/spectre.html">The SPECTRE Project</a></li>
+						<li><a href="/spectre.html" style="color: red;">The SPECTRE Project</a></li>                      
 						<li><a href="/contact.html">Contact</a></li>
 					</ul>
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-		</div>
+		</nav>
 
-		<div class="container">
+		<div class="container theme-showcase" role="main">
 			<div class="content">
-				<!-- <div class="page-header"> -->
-				<div class="page-header" style="margin-top: 10px;">
-					<h2>Research</h2>
-				</div>
 				<div class="row">
-					<div class="span12">
-						
-						<div class="row">
-							<div class="span6">
-								<ul class="nav">
-									<li>
-										<a href="research/search_latency.html"><b>Impact of search latency on user engagement in web search</b></a>The users show high variation in the way they perceive the <b>response latency</b> of a web service as this depends on users’ demographics, context, and potentially many other factors. Therefore, search results could be served to each user at <b>custom latencies</b> depending on the estimated <b>behavioural impact</b> of latency on the users, while minimising the usage of hardware resources. In this project, I have been researching <b>mechanisms</b> for accurate prediction of user-perceived response latency as well as the impact of latency on user experience. In follow-up work, I plan to develop proper models for <b>personalising response latency</b> on a per-user basis, eventually aiming to achieve <b>financial cost savings</b> for the search engine company without hurting user engagement.
-										<br />
-										<br />
-									</li>
-									<li>
-										<a href="/research/ad_retrieval.html"><b>Ad retrieval</b></a>In this project, I developed methods for effective &lt;query, ad&gt; matching, to promote <b>higher engagement</b> with ads, <b>improve CTR</b>, and <b>increase advertisement revenues</b> in sponsored search. More specifically, I investigated latent associations between queries and ads using machine learning techniques and NLP features.
-										<br />
-										<br />
-									</li>
-									<li>
-										<a href=""><b>Predicting long-term user engagement</b></a>In this work, I investigated <b>long-term engagement</b> with a web site. In particular, I analysed the interactions of a large sample of users with the Yahoo News portal and characterised long-term user engagement by means of different metrics. I also investigated the feasibility of predicting long-term engagement, as well as anticipating <b>customer churn</b>, using short-term interaction signals as well as classification and regression techniques. The findings of this work  have important implications for Internet companies, where long-term user engagement is likely to lead to <b>better monetisation</b> and <b>customer retention</b> (i.e., reduced churn).
-										<br />
-										<br />
-									</li>
-									<li>
-										<a href="/research/modelling_news_article_quality.html"><b>Modelling news article quality</b></a>The goal of this project is to identify certain <b>proxies</b> for characterising the <b>editorial quality of news articles</b> in an <b>automatic</b> and <b>scalable</b> way. In order to learn models that can predict accurately the quality of news articles, I generated a ground-truth dataset with the help of expert judges. To this end, I performed an editorial study and created an in-domain, annotated news corpus. Using this annotated news corpus, I modelled news article quality witht the help of <b>shallow</b>, <b>syntactic</b>, <b>probabilistic</b> and more complex features. Currently, I am researching methods for computing the reputation of named-entities that appear in news articles, as well as the degree of <b>controversy</b> in news.
-										<br />
-										<br />
-									</li>
-								</ul>
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
+								<h3><b>Research</b></h3>
 							</div>
-							<div class="span6">
-								<ul class="nav">
-									<li>
-										<a href="/research/mouse_tracking_analysis.html"><b>Scalable mouse tracking analysis for inferring user intent</b></a>The measurement of <b>within-content engagement</b> remains a difficult and unsolved task, partly because of the lack of standardised, well-validated methods of measurement, especially in an online context. To this end, I performed a study where I observed how users interact with online news in the presence or lack of interest. I collected mouse tracking data, which are known to correlate with visual attention, and examined how <b>cursor behaviour</b> can inform models of user engagement using <b>unsupervised learning</b> methods.
-										<br />
-										<br />
-									</li>
-									<li>
-										<a href="/research/knowledge_module_engagement.html"><b>Knowledge Module engagement</b></a>Existing approaches to measuring <b>user engagement</b> with specific SERP modules are limited to traditional metrics like click-through rate or dwell time, which are not available or suitable in the context of the knowledge module. To address this gap, I examined what fraction of the daily Yahoo search users notice it, and to what extent they perceive it as a useful aid to their search activities. I also collected and analysed <b>mouse cursor interactions</b> over a number of SERPs, and investigated the feasibility of predicting the answer to the above questions by using <b>implicit</b>, <b>low-cost</b>, and <b>scalable</b> feedback signals.
-										<br />
-										<br />
-									</li>
-									<li>
-										<a href="/research/discovery_of_poi.html"><b>Discovery and localisation of points of interest</b></a>This project involves accurately locating <b>points of interest</b> visible in photos, by exploiting the <b>location</b> information and <b>compass orientation</b> supplied by modern photo cameras. This is accomplished by analysing the fields of view of the cameras capturing the scenes, while taking the inaccuracy of the sensors providing these measurements into account. My contribution involves a rigorous evaluation of the models’ performance against different baselines, using machine learning and statistical analysis techniques.
-										<br />
-										<br />
-									</li>
-									<li>
-										<a href="/research/entity_linking.html"><b>Linking entities to past articles</b></a>One aspect of engagement deals with keeping users on the site longer, by allowing them to navigate through content with enhanced, <b>click-through experiences</b>. So far these links have been manually curated by professional editors, and due to the manual effort involved, the use of such links has been limited. To address this issue, I participated in the design and evaluation of an automated approach to detecting and <b>linking newsworthy events</b> to associated articles.
-										<br />
-										<br />
-									</li>
-								</ul>
+							<div class="panel-body">							 	
+								<div class="col-md-6">
+									<a href="research/search_latency.html"><b>Impact of search latency on user engagement in web search</b></a>
+									<br />
+									The users show high variation in the way they perceive the <b>response latency</b> of a web service as this depends on users’ demographics, context, and potentially many other factors. Therefore, search results could be served to each user at <b>custom latencies</b> depending on the estimated <b>behavioural impact</b> of latency on the users, while minimising the usage of hardware resources. In this project, I have been researching <b>mechanisms</b> for accurate prediction of user-perceived response latency as well as the impact of latency on user experience. In follow-up work, I plan to develop proper models for <b>personalising response latency</b> on a per-user basis, eventually aiming to achieve <b>financial cost savings</b> for the search engine company without hurting user engagement.
+									<br />
+									<br />
+									<a href="/research/ad_retrieval.html"><b>Ad retrieval</b></a>
+									<br />
+									In this project, I developed methods for effective &lt;query, ad&gt; matching, to promote <b>higher engagement</b> with ads, <b>improve CTR</b>, and <b>increase advertisement revenues</b> in sponsored search. More specifically, I investigated latent associations between queries and ads using machine learning techniques and NLP features.
+									<br />
+									<br />
+									<a href=""><b>Predicting long-term user engagement</b></a>
+									<br />
+									In this work, I investigated <b>long-term engagement</b> with a web site. In particular, I analysed the interactions of a large sample of users with the Yahoo News portal and characterised long-term user engagement by means of different metrics. I also investigated the feasibility of predicting long-term engagement, as well as anticipating <b>customer churn</b>, using short-term interaction signals as well as classification and regression techniques. The findings of this work  have important implications for Internet companies, where long-term user engagement is likely to lead to <b>better monetisation</b> and <b>customer retention</b> (i.e., reduced churn).
+									<br />
+									<br />
+									<a href="/research/modelling_news_article_quality.html"><b>Modelling news article quality</b></a>
+									<br />
+									The goal of this project is to identify certain <b>proxies</b> for characterising the <b>editorial quality of news articles</b> in an <b>automatic</b> and <b>scalable</b> way. In order to learn models that can predict accurately the quality of news articles, I generated a ground-truth dataset with the help of expert judges. To this end, I performed an editorial study and created an in-domain, annotated news corpus. Using this annotated news corpus, I modelled news article quality witht the help of <b>shallow</b>, <b>syntactic</b>, <b>probabilistic</b> and more complex features. Currently, I am researching methods for computing the reputation of named-entities that appear in news articles, as well as the degree of <b>controversy</b> in news.
+									<br />
+									<br />
+								</div>
+								<div class="col-md-6">
+									<a href="/research/mouse_tracking_analysis.html"><b>Scalable mouse tracking analysis for inferring user intent</b></a>
+									<br />
+									The measurement of <b>within-content engagement</b> remains a difficult and unsolved task, partly because of the lack of standardised, well-validated methods of measurement, especially in an online context. To this end, I performed a study where I observed how users interact with online news in the presence or lack of interest. I collected mouse tracking data, which are known to correlate with visual attention, and examined how <b>cursor behaviour</b> can inform models of user engagement using <b>unsupervised learning</b> methods.
+									<br />
+									<br />
+									<a href="/research/knowledge_module_engagement.html"><b>Knowledge Module engagement</b></a>
+									<br />
+									Existing approaches to measuring <b>user engagement</b> with specific SERP modules are limited to traditional metrics like click-through rate or dwell time, which are not available or suitable in the context of the knowledge module. To address this gap, I examined what fraction of the daily Yahoo search users notice it, and to what extent they perceive it as a useful aid to their search activities. I also collected and analysed <b>mouse cursor interactions</b> over a number of SERPs, and investigated the feasibility of predicting the answer to the above questions by using <b>implicit</b>, <b>low-cost</b>, and <b>scalable</b> feedback signals.
+									<br />
+									<br />
+									<a href="/research/discovery_of_poi.html"><b>Discovery and localisation of points of interest</b></a>
+									<br />
+									This project involves accurately locating <b>points of interest</b> visible in photos, by exploiting the <b>location</b> information and <b>compass orientation</b> supplied by modern photo cameras. This is accomplished by analysing the fields of view of the cameras capturing the scenes, while taking the inaccuracy of the sensors providing these measurements into account. My contribution involves a rigorous evaluation of the models’ performance against different baselines, using machine learning and statistical analysis techniques.
+									<br />
+									<br />
+									<a href="/research/entity_linking.html"><b>Linking entities to past articles</b></a>
+									<br />
+									One aspect of engagement deals with keeping users on the site longer, by allowing them to navigate through content with enhanced, <b>click-through experiences</b>. So far these links have been manually curated by professional editors, and due to the manual effort involved, the use of such links has been limited. To address this issue, I participated in the design and evaluation of an automated approach to detecting and <b>linking newsworthy events</b> to associated articles.
+								</div>
 							</div>
 						</div>
-
 					</div>
+				</div> <!-- /row -->
+				<div class="row" style="text-align: center;">
+					<footer>
+						<p>
+							&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+						</p>
+					</footer>
 				</div>
-			</div>
-
-			<footer>
-				<p>
-					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				</p>
-			</footer>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
+
 	</body>
 </html>

@@ -5,430 +5,450 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
 		<meta name="author" content="Ioannis Arapakis">
-	
+		<link rel="icon" href="../../favicon.ico">
+
 		<title>Ioannis Arapakis</title>
 
-		<!-- Bootstrap -->
-		<link href="/themes/twitter/bootstrap.min.css" rel="stylesheet">
-		<link href="/themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<body style="background-color: #f5f5f5;">
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-	
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="/">Ioannis Arapakis</a>
-					<ul class="nav">
+		<script src="/js/bootstrap.min.js"></script>
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/index.html" style="color: white; font-size: 18px; font-weight: normal;">Ioannis Arapakis</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" style="padding-top: 2px;">
+					<ul class="nav navbar-nav">
 						<li><a href="/research.html">Research</a></li>
 						<li><a href="/publications.html">Publications</a></li>
 						<li><a href="/teaching.html">Teaching</a></li>
-						<li><a href="/spectre.html">The SPECTRE Project</a></li>
+						<li><a href="/spectre.html" style="color: red;">The SPECTRE Project</a></li>                      
 						<li><a href="/contact.html">Contact</a></li>
 					</ul>
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-		</div>
+		</nav>
 
-		<div class="container">
+		<div class="container theme-showcase" role="main">
 			<div class="content">
-				<!-- <div class="page-header"> -->
-				<div class="page-header" style="margin-top: 10px;">
-					<h2>Publications</h2>
-				</div>
 				<div class="row">
-					<div class="span12">
-						<h3>Journal Articles</h3>
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
+								<h3><b>Publications</b></h3>
+							</div>
+							<div class="panel-body" style="padding-top: 0px;">
+								
+								<h3>Journal Articles</h3>
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2016</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/JASIST16.pdf" target="_blank">On the Feasibility of Predicting News Popularity at Cold Start</a></b>
-							<br />
-							<b>I. Arapakis</b>, B. Barla Cambazoglu, and M. Lalmas
-							<br />
-							In Journal of the American Society for Information Science and Technology, 2016.
-							<br />
-							<span class="label label-primary">Full Article</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/TOMM15.pdf" target="_blank">Finding Social Points of Interest from Georeferenced and Oriented Online Photographs</a></b>
-							<br />
-							B. Thomee, <b>I. Arapakis</b>, and D. A. Shamma
-							<br />
-							In ACM Transactions on Multimedia Computing, 12(2), 2016.
-							<br />
-							<span class="label label-primary">Full Article</span>
-						</p>
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2016</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/JASIST16.pdf" target="_blank">On the Feasibility of Predicting News Popularity at Cold Start</a></b>
+									<br />
+									<b>I. Arapakis</b>, B. Barla Cambazoglu, and M. Lalmas
+									<br />
+									In Journal of the American Society for Information Science and Technology, 2016.
+									<br />
+									<span class="label label-primary">Full Article</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/TOMM15.pdf" target="_blank">Finding Social Points of Interest from Georeferenced and Oriented Online Photographs</a></b>
+									<br />
+									B. Thomee, <b>I. Arapakis</b>, and D. A. Shamma
+									<br />
+									In ACM Transactions on Multimedia Computing, 12(2), 2016.
+									<br />
+									<span class="label label-primary">Full Article</span>
+								</p>
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/JASIST14.pdf" target="_blank">User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze</a></b>
-							<br />
-							<b>I. Arapakis</b>, M. Lalmas, B. Barla Cambazoglu, M. C. Marcos, and J. M. Jose
-							<br />
-							In Journal of the American Society for Information Science and Technology, 65(10):1988-2005, 2014.
-							<br />
-							<span class="label label-primary">Full Article</span>
-						</p>
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/JASIST14.pdf" target="_blank">User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze</a></b>
+									<br />
+									<b>I. Arapakis</b>, M. Lalmas, B. Barla Cambazoglu, M. C. Marcos, and J. M. Jose
+									<br />
+									In Journal of the American Society for Information Science and Technology, 65(10):1988-2005, 2014.
+									<br />
+									<span class="label label-primary">Full Article</span>
+								</p>
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2013</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/JASIST13.pdf" target="_blank">Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation</a></b>
-							<br />
-							<b>I. Arapakis</b>, M. Lalmas, H. Ceylan, and P. Donmez
-							<br />
-							In Journal of the American Society for Information Science and Technology, 65(1):129-145, 2013.
-							<br />
-							<span class="label label-primary">Full Article</span>
-						</p>
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2013</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/JASIST13.pdf" target="_blank">Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation</a></b>
+									<br />
+									<b>I. Arapakis</b>, M. Lalmas, H. Ceylan, and P. Donmez
+									<br />
+									In Journal of the American Society for Information Science and Technology, 65(1):129-145, 2013.
+									<br />
+									<span class="label label-primary">Full Article</span>
+								</p>
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-bottom: 10px;"><b>2011</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/IP&M11.pdf" target="_blank">Theories, methods and current research on emotions in library and information science, information retrieval and human-computer interaction</a></b>
-							<br />
-							I. Lopatovska, and <b>I. Arapakis</b>
-							<br />
-							In Information Processing &amp; Management, 47(4):575- 592, 2011.
-							<br />
-							<span class="label label-primary">Full Article</span>
-						</p>
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-bottom: 10px;"><b>2011</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/IP&M11.pdf" target="_blank">Theories, methods and current research on emotions in library and information science, information retrieval and human-computer interaction</a></b>
+									<br />
+									I. Lopatovska, and <b>I. Arapakis</b>
+									<br />
+									In Information Processing &amp; Management, 47(4):575- 592, 2011.
+									<br />
+									<span class="label label-primary">Full Article</span>
+								</p>
 
-						<hr />
+								<hr />
 
-						<h3>Conference Papers</h3>
+								<h3>Conference Papers</h3>
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2016</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/CIKM16.pdf" target="_blank">The Role of Relevance in Sponsored Search</a></b>
-							<br />
-							L. Aiello, <b>I. Arapakis</b>, R. Baeza-Yates, X. Bai, N. Barbieri, A. Mantrach, and F. Silvestri
-							<br />
-							In Proceedings of the 25th ACM International Conference on Information and Knowledge Management, 2016.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/ACL16.pdf" target="_blank">Linguistic Benchmarks of Online News Article Quality</a></b>
-							<br />
-							<b>I. Arapakis</b>, F. Peleja, B. Barla Cambazoglu, and J. Magalh&atilde;es
-							<br />
-							In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, 2016.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-							<span class="label label-warning">Public Dataset</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SIGIR16.pdf" target="_blank">Predicting User Engagement with Direct Displays in Web Search Using Mouse Cursor Features</a></b>
-							<br />
-							<b>I. Arapakis</b>, and L. A. Leiva
-							<br />
-							In Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2016.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2015</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/CIKM15-short.pdf" target="_blank">Know Your Onions: Understanding the User Experience with the Knowledge Module in Web Search</a></b>
-							<br />
-							<b>I. Arapakis</b>, B. Barla Cambazoglu, and L. A. Leiva
-							<br />
-							In Proceedings of the 24th ACM International Conference on Information and Knowledge Management, pp. 1695-1698, 2015.
-							<br />
-							<span class="label label-success">Short Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/Interaccion15.pdf" target="_blank">Effects of Snippets on User Experience in Web Search</a></b>
-							<br />
-							M.-C. Marcos, F. Gavin, and <b>I. Arapakis</b>, 
-							<br />
-							In Proceedings of the 16th International Conference on Human-Computer Interaction (Interacción), 2015.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SIGIR15.pdf" target="_blank">Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</a></b>
-							<br />
-							M. Barreda-&Agrave;ngeles, <b>I. Arapakis</b>, X. Bai, B. Barla Cambazoglu, and A. Pereda-Ba&ntilde;os 
-							<br />
-							In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 203-212, 2015.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b class="text-primary">MULTISENSOR: Development of multimedia content integration technologies for journalism, media monitoring and international exporting decision support.</b>
-							<br />
-							S. Vrochidis, I. Kompatsiaris, G. Casamayor, <b>I. Arapakis</b>, R. Busch, V. Alexiev, E. Jamin, M. Jugov, N. Heise, T. Forrellat, D. Liparas, L. Wanner, I. Miliaraki, V. Aleksic, K. Simov, A.-M. Soro, M. Eckhoff, T. Wagner, and M. Puigbo
-							<br />
-							In 2015 IEEE International Conference on Multimedia &amp; Expo, 2015.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>						
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
-
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SocInfo14.pdf" target="_blank">On the Feasibility of Predicting News Popularity at Cold Start</a></b>
-							<br />
-							<b>I. Arapakis</b>, B. Barla Cambazoglu, and M. Lalmas 
-							<br />
-							In Proceedings of the 6th International Conference on Social Informatics, pp. 290-299, 2014.
-							<br />
-							<span class="label label-success">Short Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SIGIR14.pdf" target="_blank">Impact of Response Latency on User Behavior in Web Search</a></b>
-							<br />
-							<b>I. Arapakis</b>, X. Bai, and B. Barla Cambazoglu
-							<br />
-							In Proceedings of the 37th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 103-112, 2014.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/CIKM14.pdf" target="_blank">Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</a></b>
-							<br />
-							<b>I. Arapakis</b>, M. Lalmas, and G. Valkanas
-							<br />
-							In Proceedings of the 23rd International Conference on Information and Knowledge Management, pp. 1439-1448, 2014.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2012</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/CIKM12-short.pdf" target="_blank">Automatically Embedding Newsworthy Links to Articles</a></b>
-							<br />
-							H. Ceylan, <b>I. Arapakis</b>, P. Donmez, M. Lalmas
-							<br />
-							In Proceedings of the 21st ACM International Conference on Information and Knowledge Management, pp. 1502-1506, 2012.
-							<br />
-							<span class="label label-success">Short Paper</span>
-						</p>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2010</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SIGIR10.pdf" target="_blank">A comparison of general vs personalised affective models for the prediction of topical relevance</a></b>
-							<br />
-							<b>I. Arapakis</b>, K. Athanasakos, and J. M. Jose
-							<br />
-							In Proceeding of the 33rd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 371-378, 2010.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-							<span class="label label-danger">Best Paper Award</span>
-						</p>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2009</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/ACM-MM09.pdf" target="_blank">Using facial expressions and peripheral physiological signals as implicit indicators of topical relevance</a></b>
-							<br />
-							<b>I. Arapakis</b>, I. Konstas, and J. M. Jose
-							<br />
-							In Proceedings of the Seventeen ACM International Conference on Multimedia, pp. 461- 470, 2009.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SIGIR09-short.pdf" target="_blank">Modeling facial expressions and peripheral physiological signals to predict topical relevance</a></b>
-							<br />
-							<b>I. Arapakis</b>, I. Konstas, J. M. Jose, and I. Kompatsiaris 
-							<br />
-							In Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 728-729, 2009.
-							<br />
-							<span class="label label-success">Short Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/CIVR09.pdf" target="_blank">Enriching user profiling with affective features for the improvement of a multimodal recommender system</a></b>
-							<br />
-							<b>I. Arapakis</b>, Y. Moshfeghi, H. Joho, R. Ren, D. Hannah, and J. M. Jose
-							<br />
-							In Proceeding of the ACM International Conference on Image and Video Retrieval, pp. 1-8, 2009.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/ICME09.pdf" target="_blank">Integrating facial expressions into user profiling for the improvement of a multimodal recommender system</a></b>
-							<br />
-							<b>I. Arapakis</b>, Y. Moshfeghi, H. Joho, R. Ren, D. Hannah, and J. M. Jose
-							<br />
-							In Proceedings of the 2009 IEEE International Conference on Multimedia and Expo, pp. 1440-1443, 2009.
-							<br />
-							<span class="label label-success">Short Paper</span>
-						</p>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2008</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SIGIR08.pdf" target="_blank">Affective feedback: an investigation into the role of emotions in the information seeking process</a></b>
-							<br />
-							<b>I. Arapakis</b>, J. M. Jose, and P. D. Gray
-							<br />
-							In Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 395-402, 2008.
-							<br />
-							<span class="label label-primary">Full Paper</span>
-						</p>
-
-						<hr />
-
-						<h3>Workshop Papers, Symposiums, Technical Reports, and Posters</h3>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2015</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/ESSIR15.pdf" target="_blank">Explanatory opinions: to whom or what is all the fuzz about?</a></b>
-							<br />
-							F. Peleja, <b>I. Arapakis</b>, and J. Magalh&atilde;es
-							<br />
-							In Proceedings of the 6th BCS-IRSG Symposium on Future Directions in Information Access, pp. 74-77, 2015.
-							<br />
-							<span class="label label-success">Short Paper</span>
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/SIGIR15-short.pdf" target="_blank">On Human Information Processing in Information Retrieval (Position Paper)</a></b>
-							<br />
-							A. Pereda-Ba&ntilde;os, <b>I. Arapakis</b>, and M. Barreda-&Agrave;ngeles
-							<br />
-							In Proceedings of the 2015 SIGIR Workshop on Neuro-Physiological Methods in IR, 2015.
-							<br />
-							<span class="label label-success">Short Paper</span>
-						</p>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="papers/TP14.pdf" target="_blank">A Controlled User Study on Human Perception of Web Search Latency</a></b>
-							<br />
-							<b>I. Arapakis</b>, X. Bai, and B. Barla Cambazoglu
-							<br />
-							In TechPulse (Internal Yahoo conference), 2014.
-							<br />
-							<span class="label label-info">Technical Report</span>
-						</p>
-												
-						<hr />
-						
-						<h3>Thesis</h3>
-
-						<p style="margin-left: 10px;">
-							<b><a href="papers/thesis.pdf" target="_blank">Affect-Based Information Retrieval</a></b>
-							<br />
-							Ph.D. in Computer Science, School of Computing Science, University of Glasgow
-							<br />
-							<b>Supervisors</b>: Prof. Joemon M. Jose, Dr. Phil Gray, Prof. C. J. Keith van Rijsbergen
-						</p>
-
-						<hr />
-						
-						<h3>Seminars &amp; Invited Talks</h3>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2016</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/CHIIR16.pdf" target="_blank">User Behaviour Modelling: Online and Offline Methods, Metrics, and Challenges</a></b>
-							<br />
-							Keynote speaker at 1st International Workshop on System And User Centered Evaluation Approaches in Interactive Information Retrieval, CHIIR 2016
-							<br />
-							Chapel Hill, Carolina, USA, March 17, 2016.
-						</p>
-						<p style="margin-left: 10px;">
-							<b class="text-primary">User Behaviour Modelling: Online and Offline Methods, Metrics, and Challenges</b>
-							<br />
-							Telefonica Research
-							<br />
-							Barcelona, Spain, January 21, 2016.
-						</p>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2015</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/Microsoft15.pdf" target="_blank">Conscious and Unconscious Effects of Search Latency on User Behavior in Web Search</a></b>
-							<br />
-							Microsoft STC-E
-							<br />
-							Munich, Germany, June 17, 2015.
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/iConference15.pdf" target="_blank">User Engagement in Web Search: Response Latency, Engagement Metrics, and Scalability</a></b>
-							<br />
-							iConference 2015 Workshop
-							<br />
-							Newport Beach, California, US, March 24, 2015.
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/UPF15.pdf" target="_blank">System and User Aspects of Web Search Latency</a></b>
-							<br />
-							Universitat Pompeu Fabra, Department of Economics and Business
-							<br />
-							Barcelona, Spain, February 10, 2015.
-						</p>
-
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/TP14.pdf" target="_blank">A Controlled User Study on Human Perception of Web Search Latency</a></b>
-							<br />
-							TechPulse 2014 (Internal Yahoo Conference)
-							<br />
-							Santa Clara, CA, US, December 9, 2014.
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/Telefonica14.pdf" target="_blank">Impact of Response Latency on User Behavior in Web Search</a></b>
-							<br />
-							Telefonica Research
-							<br />
-							Barcelona, Spain, October 20, 2014.
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/UPF14.pdf" target="_blank">User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze</a></b>
-							<br />
-							Universitat Pompeu Fabra, IDEC
-							<br />
-							Barcelona, Spain, February 4, 2014.
-						</p>
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2016</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/CIKM16.pdf" target="_blank">The Role of Relevance in Sponsored Search</a></b>
+									<br />
+									L. Aiello, <b>I. Arapakis</b>, R. Baeza-Yates, X. Bai, N. Barbieri, A. Mantrach, and F. Silvestri
+									<br />
+									In Proceedings of the 25th ACM International Conference on Information and Knowledge Management, 2016.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/ACL16.pdf" target="_blank">Linguistic Benchmarks of Online News Article Quality</a></b>
+									<br />
+									<b>I. Arapakis</b>, F. Peleja, B. Barla Cambazoglu, and J. Magalh&atilde;es
+									<br />
+									In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, 2016.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+									<span class="label label-warning">Public Dataset</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SIGIR16.pdf" target="_blank">Predicting User Engagement with Direct Displays in Web Search Using Mouse Cursor Features</a></b>
+									<br />
+									<b>I. Arapakis</b>, and L. A. Leiva
+									<br />
+									In Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2016.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
 
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2013</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/Valencia13.pdf" target="_blank">The Face of Interest or the Face of Indifference? Predicting Topical Relevance Using Real-Time Facial Expression Analysis</a></b>
-							<br />
-							Polytechnic University of Valencia
-							<br />
-							Valencia, Spain, February 1, 2013.
-						</p>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/Yahoo2013.pdf" target="_blank">Predicting News Popularity in Online Communities</a></b>
-							<br />
-							Yahoo Labs Winter Science Week
-							<br />
-							Sunnyvale, CA, US, March 7, 2013.
-						</p>
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2015</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/CIKM15-short.pdf" target="_blank">Know Your Onions: Understanding the User Experience with the Knowledge Module in Web Search</a></b>
+									<br />
+									<b>I. Arapakis</b>, B. Barla Cambazoglu, and L. A. Leiva
+									<br />
+									In Proceedings of the 24th ACM International Conference on Information and Knowledge Management, pp. 1695-1698, 2015.
+									<br />
+									<span class="label label-success">Short Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/Interaccion15.pdf" target="_blank">Effects of Snippets on User Experience in Web Search</a></b>
+									<br />
+									M.-C. Marcos, F. Gavin, and <b>I. Arapakis</b>, 
+									<br />
+									In Proceedings of the 16th International Conference on Human-Computer Interaction (Interacción), 2015.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SIGIR15.pdf" target="_blank">Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</a></b>
+									<br />
+									M. Barreda-&Agrave;ngeles, <b>I. Arapakis</b>, X. Bai, B. Barla Cambazoglu, and A. Pereda-Ba&ntilde;os 
+									<br />
+									In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 203-212, 2015.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b class="text-primary">MULTISENSOR: Development of multimedia content integration technologies for journalism, media monitoring and international exporting decision support.</b>
+									<br />
+									S. Vrochidis, I. Kompatsiaris, G. Casamayor, <b>I. Arapakis</b>, R. Busch, V. Alexiev, E. Jamin, M. Jugov, N. Heise, T. Forrellat, D. Liparas, L. Wanner, I. Miliaraki, V. Aleksic, K. Simov, A.-M. Soro, M. Eckhoff, T. Wagner, and M. Puigbo
+									<br />
+									In 2015 IEEE International Conference on Multimedia &amp; Expo, 2015.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>						
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2009</b></div>
-						<p style="margin-left: 10px;">
-							<b><a href="talks/DCU09.pdf" target="_blank">Affective Feedback: What do user emotions tell us about topical relevance?</a></b>
-							<br />
-							Dublin City University
-							<br />
-							Dublin, Ireland, June 5, 2009.
-						</p>
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
 
-						<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2008</b></div>
-						<p style="margin-left: 10px;">
-							<b class="text-primary">Affective Feedback: An Investigation into the Role of Emotions in the Information Seeking Process</b>
-							<br />
-							Centre for Research &amp; Technology (ITI)
-							<br />
-							Thessaloniki, Greece, September 1, 2008.
-						</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SocInfo14.pdf" target="_blank">On the Feasibility of Predicting News Popularity at Cold Start</a></b>
+									<br />
+									<b>I. Arapakis</b>, B. Barla Cambazoglu, and M. Lalmas 
+									<br />
+									In Proceedings of the 6th International Conference on Social Informatics, pp. 290-299, 2014.
+									<br />
+									<span class="label label-success">Short Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SIGIR14.pdf" target="_blank">Impact of Response Latency on User Behavior in Web Search</a></b>
+									<br />
+									<b>I. Arapakis</b>, X. Bai, and B. Barla Cambazoglu
+									<br />
+									In Proceedings of the 37th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 103-112, 2014.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/CIKM14.pdf" target="_blank">Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</a></b>
+									<br />
+									<b>I. Arapakis</b>, M. Lalmas, and G. Valkanas
+									<br />
+									In Proceedings of the 23rd International Conference on Information and Knowledge Management, pp. 1439-1448, 2014.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
 
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2012</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/CIKM12-short.pdf" target="_blank">Automatically Embedding Newsworthy Links to Articles</a></b>
+									<br />
+									H. Ceylan, <b>I. Arapakis</b>, P. Donmez, M. Lalmas
+									<br />
+									In Proceedings of the 21st ACM International Conference on Information and Knowledge Management, pp. 1502-1506, 2012.
+									<br />
+									<span class="label label-success">Short Paper</span>
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2010</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SIGIR10.pdf" target="_blank">A comparison of general vs personalised affective models for the prediction of topical relevance</a></b>
+									<br />
+									<b>I. Arapakis</b>, K. Athanasakos, and J. M. Jose
+									<br />
+									In Proceeding of the 33rd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 371-378, 2010.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+									<span class="label label-danger">Best Paper Award</span>
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2009</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/ACM-MM09.pdf" target="_blank">Using facial expressions and peripheral physiological signals as implicit indicators of topical relevance</a></b>
+									<br />
+									<b>I. Arapakis</b>, I. Konstas, and J. M. Jose
+									<br />
+									In Proceedings of the Seventeen ACM International Conference on Multimedia, pp. 461- 470, 2009.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SIGIR09-short.pdf" target="_blank">Modeling facial expressions and peripheral physiological signals to predict topical relevance</a></b>
+									<br />
+									<b>I. Arapakis</b>, I. Konstas, J. M. Jose, and I. Kompatsiaris 
+									<br />
+									In Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 728-729, 2009.
+									<br />
+									<span class="label label-success">Short Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/CIVR09.pdf" target="_blank">Enriching user profiling with affective features for the improvement of a multimodal recommender system</a></b>
+									<br />
+									<b>I. Arapakis</b>, Y. Moshfeghi, H. Joho, R. Ren, D. Hannah, and J. M. Jose
+									<br />
+									In Proceeding of the ACM International Conference on Image and Video Retrieval, pp. 1-8, 2009.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/ICME09.pdf" target="_blank">Integrating facial expressions into user profiling for the improvement of a multimodal recommender system</a></b>
+									<br />
+									<b>I. Arapakis</b>, Y. Moshfeghi, H. Joho, R. Ren, D. Hannah, and J. M. Jose
+									<br />
+									In Proceedings of the 2009 IEEE International Conference on Multimedia and Expo, pp. 1440-1443, 2009.
+									<br />
+									<span class="label label-success">Short Paper</span>
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2008</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SIGIR08.pdf" target="_blank">Affective feedback: an investigation into the role of emotions in the information seeking process</a></b>
+									<br />
+									<b>I. Arapakis</b>, J. M. Jose, and P. D. Gray
+									<br />
+									In Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 395-402, 2008.
+									<br />
+									<span class="label label-primary">Full Paper</span>
+								</p>
+
+								<hr />
+
+								<h3>Workshop Papers, Symposiums, Technical Reports, and Posters</h3>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2015</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/ESSIR15.pdf" target="_blank">Explanatory opinions: to whom or what is all the fuzz about?</a></b>
+									<br />
+									F. Peleja, <b>I. Arapakis</b>, and J. Magalh&atilde;es
+									<br />
+									In Proceedings of the 6th BCS-IRSG Symposium on Future Directions in Information Access, pp. 74-77, 2015.
+									<br />
+									<span class="label label-success">Short Paper</span>
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/SIGIR15-short.pdf" target="_blank">On Human Information Processing in Information Retrieval (Position Paper)</a></b>
+									<br />
+									A. Pereda-Ba&ntilde;os, <b>I. Arapakis</b>, and M. Barreda-&Agrave;ngeles
+									<br />
+									In Proceedings of the 2015 SIGIR Workshop on Neuro-Physiological Methods in IR, 2015.
+									<br />
+									<span class="label label-success">Short Paper</span>
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="papers/TP14.pdf" target="_blank">A Controlled User Study on Human Perception of Web Search Latency</a></b>
+									<br />
+									<b>I. Arapakis</b>, X. Bai, and B. Barla Cambazoglu
+									<br />
+									In TechPulse (Internal Yahoo conference), 2014.
+									<br />
+									<span class="label label-info">Technical Report</span>
+								</p>
+														
+								<hr />
+								
+								<h3>Thesis</h3>
+
+								<p style="margin-left: 10px;">
+									<b><a href="papers/thesis.pdf" target="_blank">Affect-Based Information Retrieval</a></b>
+									<br />
+									Ph.D. in Computer Science, School of Computing Science, University of Glasgow
+									<br />
+									<b>Supervisors</b>: Prof. Joemon M. Jose, Dr. Phil Gray, Prof. C. J. Keith van Rijsbergen
+								</p>
+
+								<hr />
+								
+								<h3>Seminars &amp; Invited Talks</h3>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2016</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/CHIIR16.pdf" target="_blank">User Behaviour Modelling: Online and Offline Methods, Metrics, and Challenges</a></b>
+									<br />
+									Keynote speaker at 1st International Workshop on System And User Centered Evaluation Approaches in Interactive Information Retrieval, CHIIR 2016
+									<br />
+									Chapel Hill, Carolina, USA, March 17, 2016.
+								</p>
+								<p style="margin-left: 10px;">
+									<b class="text-primary">User Behaviour Modelling: Online and Offline Methods, Metrics, and Challenges</b>
+									<br />
+									Telefonica Research
+									<br />
+									Barcelona, Spain, January 21, 2016.
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2015</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/Microsoft15.pdf" target="_blank">Conscious and Unconscious Effects of Search Latency on User Behavior in Web Search</a></b>
+									<br />
+									Microsoft STC-E
+									<br />
+									Munich, Germany, June 17, 2015.
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/iConference15.pdf" target="_blank">User Engagement in Web Search: Response Latency, Engagement Metrics, and Scalability</a></b>
+									<br />
+									iConference 2015 Workshop
+									<br />
+									Newport Beach, California, US, March 24, 2015.
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/UPF15.pdf" target="_blank">System and User Aspects of Web Search Latency</a></b>
+									<br />
+									Universitat Pompeu Fabra, Department of Economics and Business
+									<br />
+									Barcelona, Spain, February 10, 2015.
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2014</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/TP14.pdf" target="_blank">A Controlled User Study on Human Perception of Web Search Latency</a></b>
+									<br />
+									TechPulse 2014 (Internal Yahoo Conference)
+									<br />
+									Santa Clara, CA, US, December 9, 2014.
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/Telefonica14.pdf" target="_blank">Impact of Response Latency on User Behavior in Web Search</a></b>
+									<br />
+									Telefonica Research
+									<br />
+									Barcelona, Spain, October 20, 2014.
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/UPF14.pdf" target="_blank">User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze</a></b>
+									<br />
+									Universitat Pompeu Fabra, IDEC
+									<br />
+									Barcelona, Spain, February 4, 2014.
+								</p>
+
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2013</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/Valencia13.pdf" target="_blank">The Face of Interest or the Face of Indifference? Predicting Topical Relevance Using Real-Time Facial Expression Analysis</a></b>
+									<br />
+									Polytechnic University of Valencia
+									<br />
+									Valencia, Spain, February 1, 2013.
+								</p>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/Yahoo2013.pdf" target="_blank">Predicting News Popularity in Online Communities</a></b>
+									<br />
+									Yahoo Labs Winter Science Week
+									<br />
+									Sunnyvale, CA, US, March 7, 2013.
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2009</b></div>
+								<p style="margin-left: 10px;">
+									<b><a href="talks/DCU09.pdf" target="_blank">Affective Feedback: What do user emotions tell us about topical relevance?</a></b>
+									<br />
+									Dublin City University
+									<br />
+									Dublin, Ireland, June 5, 2009.
+								</p>
+
+								<div class="alert alert-info" style="padding-top: 5px; padding-left: 12px; padding-bottom: 5px; margin-top: 20px; margin-bottom: 10px;"><b>2008</b></div>
+								<p style="margin-left: 10px;">
+									<b class="text-primary">Affective Feedback: An Investigation into the Role of Emotions in the Information Seeking Process</b>
+									<br />
+									Centre for Research &amp; Technology (ITI)
+									<br />
+									Thessaloniki, Greece, September 1, 2008.
+								</p>
+
+
+							</div>
+						</div>
 					</div>
+				</div> <!-- /row -->
+				<div class="row" style="text-align: center;">
+					<footer>
+						<p>
+							&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+						</p>
+					</footer>
 				</div>
-			</div>
-
-			<footer>
-				<p>
-					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				</p>
-			</footer>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
+
 	</body>
 </html>

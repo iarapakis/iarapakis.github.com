@@ -5,88 +5,102 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
 		<meta name="author" content="Ioannis Arapakis">
-	
+		<link rel="icon" href="../../favicon.ico">
+
 		<title>Ioannis Arapakis</title>
 
-		<!-- Bootstrap -->
-		<link href="../css/bootstrap_.css" rel="stylesheet">
-		<link href="../themes/twitter/bootstrap.min.css" rel="stylesheet">
-		<link href="../themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<body style="background-color: #f5f5f5;">
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-	
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="/">Ioannis Arapakis</a>
-					<ul class="nav">
-						<li><a href="../research.html">Research</a></li>
-						<li><a href="../publications.html">Publications</a></li>
-						<li><a href="../teaching.html">Teaching</a></li>
-						<li><a href="../spectre.html">The SPECTRE Project</a></li>
-						<li><a href="../contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		<script src="/js/bootstrap.min.js"></script>
 
-		<div class="container">
-			<div class="content">
-				<!-- <div class="page-header"> -->
-				<div class="page-header" style="margin-top: 10px;">
-					<h2>Ad retrieval</h2>
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/index.html" style="color: white; font-size: 18px; font-weight: normal;">Ioannis Arapakis</a>
 				</div>
+				<div id="navbar" class="navbar-collapse collapse" style="padding-top: 2px;">
+					<ul class="nav navbar-nav">
+						<li><a href="/research.html">Research</a></li>
+						<li><a href="/publications.html">Publications</a></li>
+						<li><a href="/teaching.html">Teaching</a></li>
+						<li><a href="/spectre.html" style="color: red;">The SPECTRE Project</a></li>                      
+						<li><a href="/contact.html">Contact</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+
+		<div class="container theme-showcase" role="main">
+			<div class="content">
 				<div class="row">
-					<div class="span12">
-						
-						<div class="row">
-							<div class="span8">
-								<h3>The Role of Relevance in Sponsored Search</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span>L. Aiello, <b>I. Arapakis</b>, R. Baeza-Yates, X. Bai, N. Barbieri, A. Mantrach, and F. Silvestri
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									Sponsored search aims at retrieving the advertisements that in the one hand meet users’ intent reflected in their search queries, and in the other hand attract user clicks to generate revenue. Advertisements are typically ranked based on their expected revenue that is computed as the product between their predicted probability of being clicked (i.e., namely clickability) and their advertiser provided bid. The relevance of an advertisement to a user query is implicitly captured by the predicted clickability of the advertisement, assuming that relevant advertisements are more likely to attract user clicks. However, this approach easily biases the ranking toward advertisements having rich click history. This may incorrectly lead to showing irrelevant advertisements whose clickability is not accurately predicted due to lack of click history. Another side e↵ect consists of never giving a chance to new advertisements that may be highly relevant to be printed due to their lack of click history.
-									<br />
-									To address this problem, we explicitly measure the relevance between an advertisement and a query without relying on the advertisement’s click history, and present different ways of leveraging this relevance to improve user search experience without reducing search engine revenue. Specifically, we propose a machine learning approach that solely relies on text-based features to measure the relevance between an advertisement and a query. We discuss how the introduced relevance can be used in four important use cases: pre-filtering of irrelevant advertisements, recovering advertisements with little history, improving clickability prediction, and re-ranking of the advertisements on the final search result page. O✏ine experiments using large-scale query logs and online A/B tests demonstrate the superiority of the proposed click-oblivious relevance model and the important roles that relevance plays in sponsored search.
-								</p>
-								<p>
-									<!-- <span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://"></a><br /> -->
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM16.pdf" target="_blank">PDF</a>
-									<br />
-									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Relevance Model; relevance in sponsored Search
-								</p>
-								<!-- <div class="well">
-									xxx
-								</div> -->
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
+								<h3><b>Ad retrieval</b></h3>
 							</div>
-							<div class="span4">
-								<!-- <h3>Supplementary Material</h3> -->
-								<a href="../images/fig8.png" class="thumbnail"><img src="../images/fig8.png" width="300" /></a>
-								<em>Performance of relevance model.</em>
-								<br />
-								<br />
-								<a href="../images/fig7.png" class="thumbnail"><img src="../images/fig7.png" width="300" /></a>
-								<em>NDCG distribution.</em>
-								<!-- <img src="images/G_miguel_fig2_long.png" width="260" /> -->
+							<div class="panel-body">
+								
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>The Role of Relevance in Sponsored Search</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span>L. Aiello, <b>I. Arapakis</b>, R. Baeza-Yates, X. Bai, N. Barbieri, A. Mantrach, and F. Silvestri
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											Sponsored search aims at retrieving the advertisements that in the one hand meet users’ intent reflected in their search queries, and in the other hand attract user clicks to generate revenue. Advertisements are typically ranked based on their expected revenue that is computed as the product between their predicted probability of being clicked (i.e., namely clickability) and their advertiser provided bid. The relevance of an advertisement to a user query is implicitly captured by the predicted clickability of the advertisement, assuming that relevant advertisements are more likely to attract user clicks. However, this approach easily biases the ranking toward advertisements having rich click history. This may incorrectly lead to showing irrelevant advertisements whose clickability is not accurately predicted due to lack of click history. Another side e↵ect consists of never giving a chance to new advertisements that may be highly relevant to be printed due to their lack of click history.
+											<br />
+											To address this problem, we explicitly measure the relevance between an advertisement and a query without relying on the advertisement’s click history, and present different ways of leveraging this relevance to improve user search experience without reducing search engine revenue. Specifically, we propose a machine learning approach that solely relies on text-based features to measure the relevance between an advertisement and a query. We discuss how the introduced relevance can be used in four important use cases: pre-filtering of irrelevant advertisements, recovering advertisements with little history, improving clickability prediction, and re-ranking of the advertisements on the final search result page. O✏ine experiments using large-scale query logs and online A/B tests demonstrate the superiority of the proposed click-oblivious relevance model and the important roles that relevance plays in sponsored search.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM16.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Relevance Model; relevance in sponsored Search
+										</p>
+										<!-- <div class="well">
+											xxx
+										</div> -->
+									</div>
+									<div class="col-md-4">
+										<!-- <h4>Supplementary Material</h4> -->
+										<a href="../images/fig8.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig8.png" width="300" /></a>
+										<em>Performance of relevance model.</em>
+										<br />
+										<br />
+										<a href="../images/fig7.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig7.png" width="300" /></a>
+										<em>NDCG distribution.</em>
+									</div>
+								</div>
 							</div>
 						</div>
-
 					</div>
+				</div> <!-- /row -->
+				<div class="row" style="text-align: center;">
+					<footer>
+						<p>
+							&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+						</p>
+					</footer>
 				</div>
-			</div>
-
-			<footer>
-				<p>
-					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				</p>
-			</footer>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
+
 	</body>
 </html>
