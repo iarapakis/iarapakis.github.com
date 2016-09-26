@@ -5,146 +5,156 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
 		<meta name="author" content="Ioannis Arapakis">
-	
+		<link rel="icon" href="../../favicon.ico">
+
 		<title>Ioannis Arapakis</title>
 
-		<!-- Bootstrap -->
-		<link href="../css/bootstrap_.css" rel="stylesheet">
-		<link href="../themes/twitter/bootstrap.min.css" rel="stylesheet">
-		<link href="../themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<body style="background-color: #f5f5f5;">
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-	
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="/">Ioannis Arapakis</a>
-					<ul class="nav">
-						<li><a href="../research.html">Research</a></li>
-						<li><a href="../publications.html">Publications</a></li>
-						<li><a href="../teaching.html">Teaching</a></li>
-						<li><a href="../spectre.html">The SPECTRE Project</a></li>
-						<li><a href="../contact.html">Contact</a></li>
+		<script src="/js/bootstrap.min.js"></script>
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/index.html" style="color: white; font-size: 18px; font-weight: normal;">Ioannis Arapakis</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" style="padding-top: 2px;">
+					<ul class="nav navbar-nav">
+						<li><a href="/research.html">Research</a></li>
+						<li><a href="/publications.html">Publications</a></li>
+						<li><a href="/teaching.html">Teaching</a></li>
+						<li><a href="/spectre.html" style="color: red;">The SPECTRE Project</a></li>                      
+						<li><a href="/contact.html">Contact</a></li>
 					</ul>
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-		</div>
+		</nav>
 
-		<div class="container">
+		<div class="container theme-showcase" role="main">
 			<div class="content">
-				<!-- <div class="page-header"> -->
-				<div class="page-header" style="margin-top: 10px;">
-					<h2>Modelling news article quality</h2>
-				</div>
 				<div class="row">
-					<div class="span12">
-						
-						<div class="row">
-							<div class="span8">
-								<h3>On the Feasibility of Predicting News Popularity at Cold Start</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, B. Barla Cambazoglu, and M. Lalmas
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									Prominent news sites in the Web provide hundreds of news articles daily. The abundance of news content competing to attract online attention, coupled with the manual effort involved in article selection, necessitates the timely prediction of future popularity of these news articles. The future popularity of a news article can be estimated using signals indicating the article’s penetration in social media (e.g., number of tweets) in addition to traditional web analytics (e.g., number of page views). In practice, it is important to make such estimations as early as possible, preferably before the article is made available on the news site (i.e., at cold start). In this paper, we perform a study on cold-start news popularity prediction using a collection of 13,319 news articles obtained from Yahoo News, a major news provider. We characterise the popularity of news articles through a set of online metrics and try to predict their values across time using machine learning techniques on a large collection of features obtained from various sources. Our findings indicate that predicting news popularity at cold start is a difficult task, contrary to the findings of a prior work on the same topic. Most articles’ popularity may not be accurately anticipated solely on the basis of content features, without having the early-stage popularity values.
-								</p>
-								<p>
-									<!-- <span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://"></a><br /> -->
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST16.pdf" target="_blank">PDF</a>
-									<br />
-									<!-- <span class="glyphicon glyphicon-tags">&nbsp;</span></span> -->
-								</p>
-								<!-- <div class="well">
-									xxx
-								</div> -->
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
+								<h3><b>Modelling news article quality</b></h3>
 							</div>
-							<div class="span4">
-								<!-- <h3>Supplementary Material</h3> -->
-								<a href="../images/fig9.jpg" class="thumbnail"><img src="../images/fig9.jpg" width="300" /></a>
-								<em>Variation of metrics over time.</em>
-								<!-- <img src="images/G_miguel_fig2_long.png" width="260" /> -->
-							</div>
-						</div>
-
-						<hr />
-
-						<div class="row">
-							<div class="span8">
-								<h3>User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, B. Barla Cambazoglu, M. C. Marcos, and J. M. Jose
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									Online content providers, like news portals and social media platforms, constantly seek new ways to attract large shares of online attention by keeping their users engaged. A common challenge is to identify which aspects of online interaction influence user engagement the most. In this article, through an analysis of a news article collection obtained from Yahoo! News US, we demonstrate that news articles exhibit considerable variation in terms of the sentimentality and polarity of their content, depending on factors like news provider and genre. Moreover, through a laboratory study, we observe the effect of sentimentality and polarity of news and comments on a set of subjective and objective measures of engagement. In particular, we show that attention, affect, and gaze differ across news of varying interestingness. As part of our study, we also explore methods that exploit the sentiments expressed in user comments to reorder the lists of comments displayed in news pages. Our results indicate that user engagement can be predicted if we account for the sentimentality and polarity of the content, as well as other factors that drive attention and inspire human curiosity.
-								</p>
-								<p>
-									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://onlinelibrary.wiley.com/doi/10.1002/asi.23096/full" target="_blank">10.1002/asi.23096</a>
-									<br />
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST14.pdf" target="_blank">PDF</a>
-									<br />
-									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Human-computer interaction; user studies; questionnaires
-								</p>
-								<div class="well">
-									Arapakis, I., Lalmas, M., Cambazoglu, B. B., Marcos, M.-C. and Jose, J. M. (2014), <b>User engagement in online News: Under the scope of sentiment, interest, affect, and gaze</b>. J Assn Inf Sci Tec, 65: 1988–2005.
+							<div class="panel-body">
+								
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>On the Feasibility of Predicting News Popularity at Cold Start</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, B. Barla Cambazoglu, and M. Lalmas
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											Prominent news sites in the Web provide hundreds of news articles daily. The abundance of news content competing to attract online attention, coupled with the manual effort involved in article selection, necessitates the timely prediction of future popularity of these news articles. The future popularity of a news article can be estimated using signals indicating the article’s penetration in social media (e.g., number of tweets) in addition to traditional web analytics (e.g., number of page views). In practice, it is important to make such estimations as early as possible, preferably before the article is made available on the news site (i.e., at cold start). In this paper, we perform a study on cold-start news popularity prediction using a collection of 13,319 news articles obtained from Yahoo News, a major news provider. We characterise the popularity of news articles through a set of online metrics and try to predict their values across time using machine learning techniques on a large collection of features obtained from various sources. Our findings indicate that predicting news popularity at cold start is a difficult task, contrary to the findings of a prior work on the same topic. Most articles’ popularity may not be accurately anticipated solely on the basis of content features, without having the early-stage popularity values.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST16.pdf" target="_blank">PDF</a>
+											<br />
+										</p>
+										<!-- <div class="well">
+											xxx
+										</div> -->
+									</div>
+									<div class="col-md-4">
+										<!-- <h4>Supplementary Material</h4> -->
+										<a href="../images/fig9.jpg" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig9.jpg" width="300" /></a>
+										<em>Variation of metrics over time.</em>
+									</div>
 								</div>
-							</div>
-							<div class="span4">
-								<!-- <h3>Supplementary Material</h3> -->
-								<a href="../images/fig11.png" class="thumbnail"><img src="../images/fig11.png" width="300" /></a>
-								<em>Variation of news volume, sentimentality, and polarity with respect to the genre.</em>
-							</div>
-						</div>
 
-						<hr />
+								<hr />
 
-						<div class="row">
-							<div class="span8">
-								<h3>Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, H. Ceylan, and P. Donmez
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									News portals are a popular destination for web users. News providers are therefore interested in attaining higher visitor rates and promoting greater engagement with their content. One aspect of engagement deals with keeping users on site longer by allowing them to have enhanced click-through experiences. News portals have invested in ways to embed links within news stories but so far these links have been curated by news editors. Given the manual effort involved, the use of such links is limited to a small scale. In this article, we evaluate a system-based approach that detects newsworthy events in a news article and locates other articles related to these events. Our system does not rely on resources like Wikipedia to identify events, and it was designed to be domain independent. A rigorous evaluation, using Amazon’s Mechanical Turk, was performed to assess the system-embedded links against the manually-curated ones. Our findings reveal that our system’s performance is comparable with that of professional editors, and that users find the automatically generated highlights interesting and the associated articles worthy of reading. Our evaluation also provides quantitative and qualitative insights into the curation of links, from the perspective of users and professional editors.
-								</p>
-								<p>
-									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1002/asi.22959" target="_blank">10.1002/asi.22959</a>
-									<br />
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST13.pdf" target="_blank">PDF</a>
-									<br />
-									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>User studies; text mining; qualitative research
-								</p>
-								<div class="well">
-									Arapakis, I., Lalmas, M., Ceylan, H. and Donmez, P. (2014), <b>Automatically embedding newsworthy links to articles: From implementation to evaluation</b>. J Assn Inf Sci Tec, 65: 129–145.
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, B. Barla Cambazoglu, M. C. Marcos, and J. M. Jose
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											Online content providers, like news portals and social media platforms, constantly seek new ways to attract large shares of online attention by keeping their users engaged. A common challenge is to identify which aspects of online interaction influence user engagement the most. In this article, through an analysis of a news article collection obtained from Yahoo! News US, we demonstrate that news articles exhibit considerable variation in terms of the sentimentality and polarity of their content, depending on factors like news provider and genre. Moreover, through a laboratory study, we observe the effect of sentimentality and polarity of news and comments on a set of subjective and objective measures of engagement. In particular, we show that attention, affect, and gaze differ across news of varying interestingness. As part of our study, we also explore methods that exploit the sentiments expressed in user comments to reorder the lists of comments displayed in news pages. Our results indicate that user engagement can be predicted if we account for the sentimentality and polarity of the content, as well as other factors that drive attention and inspire human curiosity.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://onlinelibrary.wiley.com/doi/10.1002/asi.23096/full" target="_blank">10.1002/asi.23096</a>
+											<br />
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST14.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Human-computer interaction; user studies; questionnaires
+										</p>
+										<div class="well">
+											Arapakis, I., Lalmas, M., Cambazoglu, B. B., Marcos, M.-C. and Jose, J. M. (2014), <b>User engagement in online News: Under the scope of sentiment, interest, affect, and gaze</b>. J Assn Inf Sci Tec, 65: 1988–2005.
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- <h3>Supplementary Material</h3> -->
+										<a href="../images/fig11.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig11.png" width="300" /></a>
+										<em>Variation of news volume, sentimentality, and polarity with respect to the genre.</em>
+									</div>
 								</div>
-							</div>
-							<div class="span4">
-								<!-- <h3>Supplementary Material</h3> -->
-<!-- 								<a href="../images/fig12.png" class="thumbnail"><img src="../images/fig12.png" width="300" /></a>
-								<em>A news article with embedded links highlighting the newsworthy events selected by professional editors.</em>
-								<br />
-								<br />
- -->							<a href="../images/fig13.jpg" class="thumbnail"><img src="../images/fig13.jpg" width="300" /></a>
-								<em>Example of news article with an automatically augmented link to a related article.</em>
+
+								<hr />
+
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, H. Ceylan, and P. Donmez
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											News portals are a popular destination for web users. News providers are therefore interested in attaining higher visitor rates and promoting greater engagement with their content. One aspect of engagement deals with keeping users on site longer by allowing them to have enhanced click-through experiences. News portals have invested in ways to embed links within news stories but so far these links have been curated by news editors. Given the manual effort involved, the use of such links is limited to a small scale. In this article, we evaluate a system-based approach that detects newsworthy events in a news article and locates other articles related to these events. Our system does not rely on resources like Wikipedia to identify events, and it was designed to be domain independent. A rigorous evaluation, using Amazon’s Mechanical Turk, was performed to assess the system-embedded links against the manually-curated ones. Our findings reveal that our system’s performance is comparable with that of professional editors, and that users find the automatically generated highlights interesting and the associated articles worthy of reading. Our evaluation also provides quantitative and qualitative insights into the curation of links, from the perspective of users and professional editors.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1002/asi.22959" target="_blank">10.1002/asi.22959</a>
+											<br />
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST13.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>User studies; text mining; qualitative research
+										</p>
+										<div class="well">
+											Arapakis, I., Lalmas, M., Ceylan, H. and Donmez, P. (2014), <b>Automatically embedding newsworthy links to articles: From implementation to evaluation</b>. J Assn Inf Sci Tec, 65: 129–145.
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- <h3>Supplementary Material</h3> -->
+										<a href="../images/fig13.jpg" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig13.jpg" width="300" /></a>
+										<em>Example of news article with an automatically augmented link to a related article.</em>
+									</div>
+								</div>
+								
 							</div>
 						</div>
-
 					</div>
+				</div> <!-- /row -->
+				<div class="row" style="text-align: center;">
+					<footer>
+						<p>
+							&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+						</p>
+					</footer>
 				</div>
-			</div>
-
-			<footer>
-				<p>
-					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				</p>
-			</footer>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
+
 	</body>
 </html>

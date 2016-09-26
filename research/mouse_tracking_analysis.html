@@ -5,119 +5,137 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
 		<meta name="author" content="Ioannis Arapakis">
-	
+		<link rel="icon" href="../../favicon.ico">
+
 		<title>Ioannis Arapakis</title>
 
-		<!-- Bootstrap -->
-		<link href="../css/bootstrap_.css" rel="stylesheet">
-		<link href="../themes/twitter/bootstrap.min.css" rel="stylesheet">
-		<link href="../themes/twitter/style.css?" rel="stylesheet" type="text/css" media="all">
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<body style="background-color: #f5f5f5;">
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-	
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="/">Ioannis Arapakis</a>
-					<ul class="nav">
-						<li><a href="../research.html">Research</a></li>
-						<li><a href="../publications.html">Publications</a></li>
-						<li><a href="../teaching.html">Teaching</a></li>
-						<li><a href="../spectre.html">The SPECTRE Project</a></li>
-						<li><a href="../contact.html">Contact</a></li>
+		<script src="/js/bootstrap.min.js"></script>
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/index.html" style="color: white; font-size: 18px; font-weight: normal;">Ioannis Arapakis</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" style="padding-top: 2px;">
+					<ul class="nav navbar-nav">
+						<li><a href="/research.html">Research</a></li>
+						<li><a href="/publications.html">Publications</a></li>
+						<li><a href="/teaching.html">Teaching</a></li>
+						<li><a href="/spectre.html" style="color: red;">The SPECTRE Project</a></li>                      
+						<li><a href="/contact.html">Contact</a></li>
 					</ul>
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-		</div>
+		</nav>
 
-		<div class="container">
+		<div class="container theme-showcase" role="main">
 			<div class="content">
-				<!-- <div class="page-header"> -->
-				<div class="page-header" style="margin-top: 10px;">
-					<h2>Scalable mouse tracking analysis for inferring user intent</h2>
-				</div>
 				<div class="row">
-					<div class="span12">
-						
-						<div class="row">
-							<div class="span8">
-								<h3>Predicting User Engagement with Direct Displays in Web Search Using Mouse Cursor Features</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, and L. A. Leiva
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									Predicting user engagement with direct displays (DD) is of paramount importance to commercial search engines, as well as to search performance evaluation. However, understanding within-content engagement on a web page is not a trivial task mainly because of two reasons: (1) engagement is subjective and different users may exhibit different behavioural patterns; (2) existing proxies of user engagement (e.g., clicks, dwell time) suffer from certain caveats, such as the well-known position bias, and are not as effective in discriminating between useful and non-useful components. In this paper, we conduct a crowdsourcing study and examine how users engage with a prominent web search engine component such as the knowledge module (KM) display. To this end, we collect and analyse more than 115k mouse cursor positions from 300 users, who perform a series of search tasks. Furthermore, we engineer a large number of meta-features which we use to predict different proxies of user engagement, including attention and usefulness. In our experiments, we demonstrate that our approach is able to predict more accurately different levels of user engagement and outperform existing baselines.
-								</p>
-								<p>
-									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2911451.2911505" target="_blank">10.1145/2911451.2911505</a><br />
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR16.pdf" target="_blank">PDF</a><br />
-									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search; knowledge module; direct displays; mouse cursor tracking; user engagement
-								</p>
-								<div class="well">
-									Ioannis Arapakis and Luis A. Leiva. 2016. <b>Predicting User Engagement with Direct Displays Using Mouse Cursor Information</b>. In Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR '16). ACM, New York, NY, USA, 599-608.
-								</div>
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
+								<h3><b>Scalable mouse tracking analysis for inferring user intent</b></h3>
 							</div>
-							<div class="span4">
-								<h3>Supplementary Material</h3>
-								<a href="../images/fig14.png" class="thumbnail"><img src="../images/fig14.png" width="300" /></a>
-								<div style="text-align: center;"><em>(a)</em></div>
-								<a href="../images/fig15.png" class="thumbnail"><img src="../images/fig15.png" width="300" /></a>
-								<div style="text-align: center;"><em>(b)</em></div>
-								<br />
-								<em>Heatmaps of mouse movements for all users who did not notice the KM display (a) and all users who noticed the KM display (b). The SERP shown here is an example to illustrate its parts and structure.</em>
-								<br />
-								<br />
-								<a href="../images/fig3.png" class="thumbnail"><img src="../images/fig3.png" width="300" /></a>
-								<em>Fast or slow query response preference according to the click presence metric.</em>
-								<!-- <img src="images/G_miguel_fig2_long.png" width="260" /> -->
+							<div class="panel-body">
+								
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>Predicting User Engagement with Direct Displays in Web Search Using Mouse Cursor Features</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, and L. A. Leiva
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											Predicting user engagement with direct displays (DD) is of paramount importance to commercial search engines, as well as to search performance evaluation. However, understanding within-content engagement on a web page is not a trivial task mainly because of two reasons: (1) engagement is subjective and different users may exhibit different behavioural patterns; (2) existing proxies of user engagement (e.g., clicks, dwell time) suffer from certain caveats, such as the well-known position bias, and are not as effective in discriminating between useful and non-useful components. In this paper, we conduct a crowdsourcing study and examine how users engage with a prominent web search engine component such as the knowledge module (KM) display. To this end, we collect and analyse more than 115k mouse cursor positions from 300 users, who perform a series of search tasks. Furthermore, we engineer a large number of meta-features which we use to predict different proxies of user engagement, including attention and usefulness. In our experiments, we demonstrate that our approach is able to predict more accurately different levels of user engagement and outperform existing baselines.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2911451.2911505" target="_blank">10.1145/2911451.2911505</a>
+											<br />
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR16.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search; knowledge module; direct displays; mouse cursor tracking; user engagement
+										</p>
+										<div class="well">
+											Ioannis Arapakis and Luis A. Leiva. 2016. <b>Predicting User Engagement with Direct Displays Using Mouse Cursor Information</b>. In Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR '16). ACM, New York, NY, USA, 599-608.
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- <h4>Supplementary Material</h4> -->
+										<a href="../images/fig14.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig14.png" width="300" /></a>
+										<div style="text-align: center;"><em>(a)</em></div>
+										<a href="../images/fig15.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig15.png" width="300" /></a>
+										<div style="text-align: center;"><em>(b)</em></div>
+										<br />
+										<em>Heatmaps of mouse movements for all users who did not notice the KM display (a) and all users who noticed the KM display (b). The SERP shown here is an example to illustrate its parts and structure.</em>
+										<br />
+										<br />
+										<a href="../images/fig3.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig3.png" width="300" /></a>
+										<em>Fast or slow query response preference according to the click presence metric.</em>
+									</div>
+								</div>
+
+								<hr />
+
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, and G. Valkanas
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											The availability of large volumes of interaction data and scalable data mining techniques have made possible to study the online behaviour for millions of Web users. Part of the efforts have focused on understanding how users interact and engage with web content. However, the measurement of within-content engagement remains a difficult and unsolved task. This is because of the lack of standardised, well-validated methods for measuring engagement, especially in an online context. To address this gap, we perform a controlled user study where we observe how users respond to online news in the presence or lack of interest. We collect mouse tracking data, which are known to correlate with visual attention, and examine how cursor behaviour can inform user engagement measures. The proposed method does not use any pre-determined concepts to characterise the cursor patterns. We, rather, follow an unsupervised approach and use a large set of features engineered from our data to extract the cursor patterns. Our findings support the connection between gaze and cursor behaviour but also, and more importantly, reveal other dependencies, such as the correlation between cursor activity and experienced affect. Finally, we demonstrate the value of our method by predicting the outcome of online news reading experiences.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2661829.2661909" target="_blank">10.1145/2661829.2661909</a>
+											<br />
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM14.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Mouse gestures; user engagement; online news; pattern recognition; prediction
+										</p>
+										<div class="well">
+											Ioannis Arapakis, Mounia Lalmas, and George Valkanas. 2014. <b>Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</b>. In Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management (CIKM '14). ACM, New York, NY, USA, 1439-1448.
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- <h3>Supplementary Material</h3> -->
+										<a href="../images/fig16.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig16.png" width="300" /></a>
+										<em>Coverage of mouse gestures per participant and per cluster for interesting (I) and uninteresting (U) news.</em>
+									</div>
+								</div>
+
 							</div>
 						</div>
-
-						<hr />
-
-						<div class="row">
-							<div class="span8">
-								<h3>Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</h3>
-								<p>
-									<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, and G. Valkanas
-								</p>
-								<p>
-									<b><em>Abstract - </em></b>
-									The availability of large volumes of interaction data and scalable data mining techniques have made possible to study the online behaviour for millions of Web users. Part of the efforts have focused on understanding how users interact and engage with web content. However, the measurement of within-content engagement remains a difficult and unsolved task. This is because of the lack of standardised, well-validated methods for measuring engagement, especially in an online context. To address this gap, we perform a controlled user study where we observe how users respond to online news in the presence or lack of interest. We collect mouse tracking data, which are known to correlate with visual attention, and examine how cursor behaviour can inform user engagement measures. The proposed method does not use any pre-determined concepts to characterise the cursor patterns. We, rather, follow an unsupervised approach and use a large set of features engineered from our data to extract the cursor patterns. Our findings support the connection between gaze and cursor behaviour but also, and more importantly, reveal other dependencies, such as the correlation between cursor activity and experienced affect. Finally, we demonstrate the value of our method by predicting the outcome of online news reading experiences.
-								</p>
-								<p>
-									<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2661829.2661909" target="_blank">10.1145/2661829.2661909</a>
-									<br />
-									<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM14.pdf" target="_blank">PDF</a>
-									<br />
-									<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Mouse gestures; user engagement; online news; pattern recognition; prediction
-								</p>
-								<div class="well">
-									Ioannis Arapakis, Mounia Lalmas, and George Valkanas. 2014. <b>Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</b>. In Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management (CIKM '14). ACM, New York, NY, USA, 1439-1448.
-								</div>
-							</div>
-							<div class="span4">
-								<!-- <h3>Supplementary Material</h3> -->
-								<a href="../images/fig16.png" class="thumbnail"><img src="../images/fig16.png" width="300" /></a>
-								<em>Coverage of mouse gestures per participant and per cluster for interesting (I) and uninteresting (U) news.</em>
-							</div>
-						</div>
-
 					</div>
+				</div> <!-- /row -->
+				<div class="row" style="text-align: center;">
+					<footer>
+						<p>
+							&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+						</p>
+					</footer>
 				</div>
-			</div>
-
-			<footer>
-				<p>
-					&copy; Ioannis Arapakis 2016 with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				</p>
-			</footer>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
+
 	</body>
 </html>

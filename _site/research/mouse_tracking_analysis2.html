@@ -53,35 +53,39 @@
 					<div class="col-lg-12">
 						<div class="panel panel-default">
 							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
-								<h3><b>Impact of search latency on user engagement in web search</b></h3>
+								<h3><b>Scalable mouse tracking analysis for inferring user intent</b></h3>
 							</div>
 							<div class="panel-body">
 								
 								<div class="row">
 									<div class="col-md-8">
-										<h4>Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</h4>
+										<h4><b>Predicting User Engagement with Direct Displays in Web Search Using Mouse Cursor Features</b></h4>
 										<p>
-											<span class="glyphicon glyphicon-user">&nbsp;</span>M. Barreda-&Agrave;ngeles, <b>I. Arapakis</b>, X. Bai, B. Barla Cambazoglu, and A. Pereda-Ba&ntilde;os
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, and L. A. Leiva
 										</p>
 										<p>
 											<b><em>Abstract - </em></b>
-											Understanding the impact of a search system’s response latency on its users’ searching behaviour has been recently an active research topic in the information retrieval and human-computer interaction areas. Along the same line, this paper focuses on the user impact of search latency and makes the following two contributions. First, through a controlled experiment, we reveal the physiological effects of response latency on users and show that these effects are present even at small increases in response latency. We compare these effects with the information gathered from self-reports and show that they capture the nuanced attentional and emotional reactions to latency much better. Second, we carry out a large-scale analysis using a web search query log obtained from Yahoo to understand the change in the way users engage with a web search engine under varying levels of increasing response latency. In particular, we analyse the change in the click behaviour of users when they are subject to increasing response latency and reveal significant behavioural differences.
+											Predicting user engagement with direct displays (DD) is of paramount importance to commercial search engines, as well as to search performance evaluation. However, understanding within-content engagement on a web page is not a trivial task mainly because of two reasons: (1) engagement is subjective and different users may exhibit different behavioural patterns; (2) existing proxies of user engagement (e.g., clicks, dwell time) suffer from certain caveats, such as the well-known position bias, and are not as effective in discriminating between useful and non-useful components. In this paper, we conduct a crowdsourcing study and examine how users engage with a prominent web search engine component such as the knowledge module (KM) display. To this end, we collect and analyse more than 115k mouse cursor positions from 300 users, who perform a series of search tasks. Furthermore, we engineer a large number of meta-features which we use to predict different proxies of user engagement, including attention and usefulness. In our experiments, we demonstrate that our approach is able to predict more accurately different levels of user engagement and outperform existing baselines.
 										</p>
 										<p>
-											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2766462.2767719" target="_blank">10.1145/2766462.2767719</a>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2911451.2911505" target="_blank">10.1145/2911451.2911505</a>
 											<br />
-											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR15.pdf" target="_blank">PDF</a>
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR16.pdf" target="_blank">PDF</a>
 											<br />
-											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search engine; response latency; user study; physiological signals; user behaviour; query log analysis; click behaviour
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search; knowledge module; direct displays; mouse cursor tracking; user engagement
 										</p>
 										<div class="well">
-											Miguel Barreda-&Agrave;ngeles, Ioannis Arapakis, Xiao Bai, B. Barla Cambazoglu, and Alexandre Pereda-Ba&ntilde;os. 2015. <b>Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</b>. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '15). ACM, New York, NY, USA, 203-212.
+											Ioannis Arapakis and Luis A. Leiva. 2016. <b>Predicting User Engagement with Direct Displays Using Mouse Cursor Information</b>. In Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR '16). ACM, New York, NY, USA, 599-608.
 										</div>
 									</div>
 									<div class="col-md-4">
 										<!-- <h4>Supplementary Material</h4> -->
-										<a href="../images/fig2.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig2.png" width="300" /></a>
-										<em>Graphical representation of the values of the fixed coefficients for the EDA model.</em>
+										<a href="../images/fig14.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig14.png" width="300" /></a>
+										<div style="text-align: center;"><em>(a)</em></div>
+										<a href="../images/fig15.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig15.png" width="300" /></a>
+										<div style="text-align: center;"><em>(b)</em></div>
+										<br />
+										<em>Heatmaps of mouse movements for all users who did not notice the KM display (a) and all users who noticed the KM display (b). The SERP shown here is an example to illustrate its parts and structure.</em>
 										<br />
 										<br />
 										<a href="../images/fig3.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig3.png" width="300" /></a>
@@ -93,42 +97,31 @@
 
 								<div class="row">
 									<div class="col-md-8">
-										<h4>Impact of Response Latency on User Behavior in Web Search</h4>
+										<h4><b>Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</b></h4>
 										<p>
-											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, X. Bai, and B. Barla Cambazoglu
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, and G. Valkanas
 										</p>
 										<p>
 											<b><em>Abstract - </em></b>
-											Traditionally, the efficiency and effectiveness of search systems have both been of great interest to the information retrieval community. However, an in-depth analysis on the interplay between the response latency of web search systems and users’ search experience has been missing so far. In order to fill this gap, we conduct two separate studies aiming to reveal how response latency affects the user behavior in web search. First, we conduct a controlled user study trying to understand how users perceive the response latency of a search system and how sensitive they are to increasing delays in response. This study reveals that, when artificial delays are introduced into the response, the users of a fast search system are more likely to notice these delays than the users of a slow search system. The introduced delays become noticeable by the users once they exceed a certain threshold value. Second, we perform an analysis using a large-scale query log obtained from Yahoo web search to observe the potential impact of increasing response latency on the click behavior of users. This analysis demonstrates that latency has an impact on the click behavior of users to some extent. In particular, given two content-wise identical search result pages, we show that the users are more likely to perform clicks on the result page that is served with lower latency.
+											The availability of large volumes of interaction data and scalable data mining techniques have made possible to study the online behaviour for millions of Web users. Part of the efforts have focused on understanding how users interact and engage with web content. However, the measurement of within-content engagement remains a difficult and unsolved task. This is because of the lack of standardised, well-validated methods for measuring engagement, especially in an online context. To address this gap, we perform a controlled user study where we observe how users respond to online news in the presence or lack of interest. We collect mouse tracking data, which are known to correlate with visual attention, and examine how cursor behaviour can inform user engagement measures. The proposed method does not use any pre-determined concepts to characterise the cursor patterns. We, rather, follow an unsupervised approach and use a large set of features engineered from our data to extract the cursor patterns. Our findings support the connection between gaze and cursor behaviour but also, and more importantly, reveal other dependencies, such as the correlation between cursor activity and experienced affect. Finally, we demonstrate the value of our method by predicting the outcome of online news reading experiences.
 										</p>
 										<p>
-											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2600428.2609627" target="_blank">10.1145/2600428.2609627</a>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2661829.2661909" target="_blank">10.1145/2661829.2661909</a>
 											<br />
-											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR14.pdf" target="_blank">PDF</a>
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/CIKM14.pdf" target="_blank">PDF</a>
 											<br />
-											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search engine; response latency; user behavior
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Mouse gestures; user engagement; online news; pattern recognition; prediction
 										</p>
 										<div class="well">
-											Ioannis Arapakis, Xiao Bai, and B. Barla Cambazoglu. 2014. <b>Impact of response latency on user behavior in web search</b>. In Proceedings of the 37th international ACM SIGIR conference on Research &amp; development in information retrieval (SIGIR '14). ACM, New York, NY, USA, 103-112.
+											Ioannis Arapakis, Mounia Lalmas, and George Valkanas. 2014. <b>Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures</b>. In Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management (CIKM '14). ACM, New York, NY, USA, 1439-1448.
 										</div>
 									</div>
 									<div class="col-md-4">
 										<!-- <h3>Supplementary Material</h3> -->
-										<a href="../images/fig4.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig4.png" width="300" /></a>
-										<em>Latency components in web search.</em>
-										<br />
-										<br />
-										<a href="../images/fig5.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig5.png" width="300" /></a>
-										<em>Dissection of latency.</em>
-										<br />
-										<br />
-										<a href="../images/fig6.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig6.png" width="300" /></a>
-										<em>The likelihood of participants to feel increasing values of added latency.</em>
+										<a href="../images/fig16.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig16.png" width="300" /></a>
+										<em>Coverage of mouse gestures per participant and per cluster for interesting (I) and uninteresting (U) news.</em>
 									</div>
 								</div>
-
-
-
 
 							</div>
 						</div>

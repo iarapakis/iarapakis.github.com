@@ -53,39 +53,32 @@
 					<div class="col-lg-12">
 						<div class="panel panel-default">
 							<div class="panel-heading" style="padding: 45px 5px 5px 18px; background-color: #eee;">
-								<h3><b>Impact of search latency on user engagement in web search</b></h3>
+								<h3><b>Modelling news article quality</b></h3>
 							</div>
 							<div class="panel-body">
 								
 								<div class="row">
 									<div class="col-md-8">
-										<h4>Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</h4>
+										<h4><b>On the Feasibility of Predicting News Popularity at Cold Start</b></h4>
 										<p>
-											<span class="glyphicon glyphicon-user">&nbsp;</span>M. Barreda-&Agrave;ngeles, <b>I. Arapakis</b>, X. Bai, B. Barla Cambazoglu, and A. Pereda-Ba&ntilde;os
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, B. Barla Cambazoglu, and M. Lalmas
 										</p>
 										<p>
 											<b><em>Abstract - </em></b>
-											Understanding the impact of a search system’s response latency on its users’ searching behaviour has been recently an active research topic in the information retrieval and human-computer interaction areas. Along the same line, this paper focuses on the user impact of search latency and makes the following two contributions. First, through a controlled experiment, we reveal the physiological effects of response latency on users and show that these effects are present even at small increases in response latency. We compare these effects with the information gathered from self-reports and show that they capture the nuanced attentional and emotional reactions to latency much better. Second, we carry out a large-scale analysis using a web search query log obtained from Yahoo to understand the change in the way users engage with a web search engine under varying levels of increasing response latency. In particular, we analyse the change in the click behaviour of users when they are subject to increasing response latency and reveal significant behavioural differences.
+											Prominent news sites in the Web provide hundreds of news articles daily. The abundance of news content competing to attract online attention, coupled with the manual effort involved in article selection, necessitates the timely prediction of future popularity of these news articles. The future popularity of a news article can be estimated using signals indicating the article’s penetration in social media (e.g., number of tweets) in addition to traditional web analytics (e.g., number of page views). In practice, it is important to make such estimations as early as possible, preferably before the article is made available on the news site (i.e., at cold start). In this paper, we perform a study on cold-start news popularity prediction using a collection of 13,319 news articles obtained from Yahoo News, a major news provider. We characterise the popularity of news articles through a set of online metrics and try to predict their values across time using machine learning techniques on a large collection of features obtained from various sources. Our findings indicate that predicting news popularity at cold start is a difficult task, contrary to the findings of a prior work on the same topic. Most articles’ popularity may not be accurately anticipated solely on the basis of content features, without having the early-stage popularity values.
 										</p>
 										<p>
-											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2766462.2767719" target="_blank">10.1145/2766462.2767719</a>
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST16.pdf" target="_blank">PDF</a>
 											<br />
-											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR15.pdf" target="_blank">PDF</a>
-											<br />
-											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search engine; response latency; user study; physiological signals; user behaviour; query log analysis; click behaviour
 										</p>
-										<div class="well">
-											Miguel Barreda-&Agrave;ngeles, Ioannis Arapakis, Xiao Bai, B. Barla Cambazoglu, and Alexandre Pereda-Ba&ntilde;os. 2015. <b>Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</b>. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '15). ACM, New York, NY, USA, 203-212.
-										</div>
+										<!-- <div class="well">
+											xxx
+										</div> -->
 									</div>
 									<div class="col-md-4">
 										<!-- <h4>Supplementary Material</h4> -->
-										<a href="../images/fig2.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig2.png" width="300" /></a>
-										<em>Graphical representation of the values of the fixed coefficients for the EDA model.</em>
-										<br />
-										<br />
-										<a href="../images/fig3.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig3.png" width="300" /></a>
-										<em>Fast or slow query response preference according to the click presence metric.</em>
+										<a href="../images/fig9.jpg" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig9.jpg" width="300" /></a>
+										<em>Variation of metrics over time.</em>
 									</div>
 								</div>
 
@@ -93,43 +86,61 @@
 
 								<div class="row">
 									<div class="col-md-8">
-										<h4>Impact of Response Latency on User Behavior in Web Search</h4>
+										<h4><b>User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze</b></h4>
 										<p>
-											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, X. Bai, and B. Barla Cambazoglu
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, B. Barla Cambazoglu, M. C. Marcos, and J. M. Jose
 										</p>
 										<p>
 											<b><em>Abstract - </em></b>
-											Traditionally, the efficiency and effectiveness of search systems have both been of great interest to the information retrieval community. However, an in-depth analysis on the interplay between the response latency of web search systems and users’ search experience has been missing so far. In order to fill this gap, we conduct two separate studies aiming to reveal how response latency affects the user behavior in web search. First, we conduct a controlled user study trying to understand how users perceive the response latency of a search system and how sensitive they are to increasing delays in response. This study reveals that, when artificial delays are introduced into the response, the users of a fast search system are more likely to notice these delays than the users of a slow search system. The introduced delays become noticeable by the users once they exceed a certain threshold value. Second, we perform an analysis using a large-scale query log obtained from Yahoo web search to observe the potential impact of increasing response latency on the click behavior of users. This analysis demonstrates that latency has an impact on the click behavior of users to some extent. In particular, given two content-wise identical search result pages, we show that the users are more likely to perform clicks on the result page that is served with lower latency.
+											Online content providers, like news portals and social media platforms, constantly seek new ways to attract large shares of online attention by keeping their users engaged. A common challenge is to identify which aspects of online interaction influence user engagement the most. In this article, through an analysis of a news article collection obtained from Yahoo! News US, we demonstrate that news articles exhibit considerable variation in terms of the sentimentality and polarity of their content, depending on factors like news provider and genre. Moreover, through a laboratory study, we observe the effect of sentimentality and polarity of news and comments on a set of subjective and objective measures of engagement. In particular, we show that attention, affect, and gaze differ across news of varying interestingness. As part of our study, we also explore methods that exploit the sentiments expressed in user comments to reorder the lists of comments displayed in news pages. Our results indicate that user engagement can be predicted if we account for the sentimentality and polarity of the content, as well as other factors that drive attention and inspire human curiosity.
 										</p>
 										<p>
-											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1145/2600428.2609627" target="_blank">10.1145/2600428.2609627</a>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://onlinelibrary.wiley.com/doi/10.1002/asi.23096/full" target="_blank">10.1002/asi.23096</a>
 											<br />
-											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/SIGIR14.pdf" target="_blank">PDF</a>
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST14.pdf" target="_blank">PDF</a>
 											<br />
-											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Web search engine; response latency; user behavior
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>Human-computer interaction; user studies; questionnaires
 										</p>
 										<div class="well">
-											Ioannis Arapakis, Xiao Bai, and B. Barla Cambazoglu. 2014. <b>Impact of response latency on user behavior in web search</b>. In Proceedings of the 37th international ACM SIGIR conference on Research &amp; development in information retrieval (SIGIR '14). ACM, New York, NY, USA, 103-112.
+											Arapakis, I., Lalmas, M., Cambazoglu, B. B., Marcos, M.-C. and Jose, J. M. (2014), <b>User engagement in online News: Under the scope of sentiment, interest, affect, and gaze</b>. J Assn Inf Sci Tec, 65: 1988–2005.
 										</div>
 									</div>
 									<div class="col-md-4">
 										<!-- <h3>Supplementary Material</h3> -->
-										<a href="../images/fig4.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig4.png" width="300" /></a>
-										<em>Latency components in web search.</em>
-										<br />
-										<br />
-										<a href="../images/fig5.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig5.png" width="300" /></a>
-										<em>Dissection of latency.</em>
-										<br />
-										<br />
-										<a href="../images/fig6.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig6.png" width="300" /></a>
-										<em>The likelihood of participants to feel increasing values of added latency.</em>
+										<a href="../images/fig11.png" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig11.png" width="300" /></a>
+										<em>Variation of news volume, sentimentality, and polarity with respect to the genre.</em>
 									</div>
 								</div>
 
+								<hr />
 
-
-
+								<div class="row">
+									<div class="col-md-8">
+										<h4><b>Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation</b></h4>
+										<p>
+											<span class="glyphicon glyphicon-user">&nbsp;</span><b>I. Arapakis</b>, M. Lalmas, H. Ceylan, and P. Donmez
+										</p>
+										<p>
+											<b><em>Abstract - </em></b>
+											News portals are a popular destination for web users. News providers are therefore interested in attaining higher visitor rates and promoting greater engagement with their content. One aspect of engagement deals with keeping users on site longer by allowing them to have enhanced click-through experiences. News portals have invested in ways to embed links within news stories but so far these links have been curated by news editors. Given the manual effort involved, the use of such links is limited to a small scale. In this article, we evaluate a system-based approach that detects newsworthy events in a news article and locates other articles related to these events. Our system does not rely on resources like Wikipedia to identify events, and it was designed to be domain independent. A rigorous evaluation, using Amazon’s Mechanical Turk, was performed to assess the system-embedded links against the manually-curated ones. Our findings reveal that our system’s performance is comparable with that of professional editors, and that users find the automatically generated highlights interesting and the associated articles worthy of reading. Our evaluation also provides quantitative and qualitative insights into the curation of links, from the perspective of users and professional editors.
+										</p>
+										<p>
+											<span class="glyphicon glyphicon-info-sign">&nbsp;</span><a href="http://dx.doi.org/10.1002/asi.22959" target="_blank">10.1002/asi.22959</a>
+											<br />
+											<span class="glyphicon glyphicon-file">&nbsp;</span><a href="../papers/JASIST13.pdf" target="_blank">PDF</a>
+											<br />
+											<span class="glyphicon glyphicon-tags">&nbsp;</span></span>User studies; text mining; qualitative research
+										</p>
+										<div class="well">
+											Arapakis, I., Lalmas, M., Ceylan, H. and Donmez, P. (2014), <b>Automatically embedding newsworthy links to articles: From implementation to evaluation</b>. J Assn Inf Sci Tec, 65: 129–145.
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- <h3>Supplementary Material</h3> -->
+										<a href="../images/fig13.jpg" class="thumbnail" style="margin-bottom: 5px;"><img src="../images/fig13.jpg" width="300" /></a>
+										<em>Example of news article with an automatically augmented link to a related article.</em>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
